@@ -1,0 +1,13 @@
+*{
+  background-img: "./Background.jpg";
+  text-align: center;
+  background-color: aqua;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 5px;
+  border: solid black 1px;
+};
+select, button, li, ol, ul, option{
+  background-color: black;
+  color: white;
+}
