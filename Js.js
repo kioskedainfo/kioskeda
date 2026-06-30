@@ -10,3 +10,6 @@ c=["cocina","aseo personal","aseo geneneral","ropa interior femenina","rop inter
 function salu(){
   alert(a\n b \n c \n d \n + "Trabajo realizado por José fernando cano peláez, encuentrame en yotube, dale me gusta, comentar, compartir, donar por favor y muchas grecias. \nEs para poder crecer y poder prestarte en el futuro un mejor servicio.");
 }
+function remat(){
+  window.open("https://kioskeda.github.io/Rematesdilmedatv");
+}
