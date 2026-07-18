@@ -13,3 +13,6 @@ function salu(){
 function remat(){
   window.open("https://kioskeda.github.io/Rematesdilmedatv");
 }
+function selch(){
+  
+}
