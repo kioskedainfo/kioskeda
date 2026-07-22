@@ -11,13 +11,22 @@ select, button, li, ol, ul, option{
   background-color: black;
   color: white;
 }
+.divprin{
+  background-color:white;
+}
+.divsec{
+  background-color: aquamarine;
+  display: flex;
+}
 .divl{
   background-color: white;
   color: black;
   text-align: left;
+  font.family:"verdana";
 }
 .divr{
   background-color: black;
   color: white;
   text-align: right;
+  font-family: verdana;
 }
