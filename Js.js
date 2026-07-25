@@ -16,3 +16,6 @@ function remat(){
 function selch(){
   
 }
+function butpunk(){
+  window.open("https://kioskeda.github.io/kioskeda/punk.html");
+}
