@@ -1,45 +1,52 @@
 *{
-  align-content: center;
-  text-align: center;
-  background-color: aqua;
-  border-radius: 20px;
-  margin: 5px;
-  padding: 5px;
-}
-select, button, li, ol, ul, option{
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 200;
+    font-style: oblique;
 }
 .divprin{
-  background-color: white;
-  display: flex;
+    background-color: white;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-content: center;
 }
 .divsec{
-  background-color: aquamarine;
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    align-content: center;
 }
-.divl{
-  position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 85%;
-  background-color: white;
-  color: black;
-  text-align: left;
-  font-family:"verdana";
+button, select, option{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    align-content: center;
 }
-.divr{
-  position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 85%;
-  right: 0%;
-  background-color: black;
-  color: white;
-  text-align: right;
-  font-family: verdana;
+.asil{
+    position: fixed;
+    left: 0%;
+    right: 85%;
+    top: 0%;
+    bottom: 80%;
 }
-img{
-  width: 40%;
-  border-radius: 20px;
+.asir{
+    position: fixed;
+    left: 85%;
+    right: 0%;
+    top: 0%;
+    bottom: 80%;
+}
+.divcon{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: block;
 }
