@@ -1,5 +1,5 @@
 *{
-  background-img: "./Background.jpg";
+  align-content: center;
   text-align: center;
   background-color: aqua;
   border-radius: 20px;
@@ -11,21 +11,35 @@ select, button, li, ol, ul, option{
   color: white;
 }
 .divprin{
-  background-color:white;
+  background-color: white;
+  display: flex;
 }
 .divsec{
   background-color: aquamarine;
-  display: flex;
 }
 .divl{
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 85%;
   background-color: white;
   color: black;
   text-align: left;
   font-family:"verdana";
 }
 .divr{
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 85%;
+  right: 0%;
   background-color: black;
   color: white;
   text-align: right;
   font-family: verdana;
+}
+img{
+  width: 40%;
+  border-radius: 20px;
 }
