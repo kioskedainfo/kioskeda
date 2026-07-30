@@ -1,52 +1,62 @@
 *{
-    background-color: black;
-    color: white;
+    color: black;
     text-align: center;
+    border-radius: 20px;
     align-content: center;
     margin: 5px;
     padding: 5px;
-    border-radius: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    font-weight: 200;
-    font-style: oblique;
+    
 }
+body{
+    display:contents;
+    position: static;
+    height: 30%;
+    width: 30%;
+}
+
 .divprin{
-    background-color: white;
-    color: black;
-    display: flex;
-    text-align: center;
-    align-content: center;
+    background-color: aquamarine;
+
 }
 .divsec{
-    background-color: blue;
-    color: yellow;
-    text-align: center;
-    align-content: center;
+    background-color: black;
+    color: white;
 }
 button, select, option{
-    background-color: aqua;
-    color: black;
-    text-align: center;
-    align-content: center;
+    width: 10%;
 }
-.asil{
-    position: fixed;
-    left: 0%;
-    right: 85%;
-    top: 0%;
-    bottom: 80%;
+img{
+    width: 30%;
+    height: 30%;
 }
 .asir{
-    position: fixed;
-    left: 85%;
-    right: 0%;
-    top: 0%;
-    bottom: 80%;
-}
-.divcon{
+    font-size: smaller;
     text-align: center;
-    align-content: center;
     align-items: center;
-    display: block;
+    align-content: center;
+    background-color: black;
+    ol, li, h2, h1{
+        color: white;
+    }
+    
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 85%;
+    bottom: 0%;;
 }
+.asil{
+    font-size: smaller;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    ol, li, h2, h1{
+        color: white;
+    }
+    position: fixed;
+    top: 0%;
+    right: 85%;
+    left: 0%;
+    bottom: 0%;;
+}   
