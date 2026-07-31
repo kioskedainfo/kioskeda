@@ -1,3 +1,8 @@
+//Botonos básicos
+function butdesajo(){
+  alert("Página web desarrollada por José fernando cano peláez de la empresa Dilmed agilizando tu vida.\nLa empresa se encuentra en proceso de creación y te solicito ayuda para poder continuar su desarrollo bien sea con una donación, una compra de un producto o compartiendo la página, los canales de yotube, los enlaces, etc.\nPuedes encontrarme en:\nhttps://kioskedainfo.github.io/kioskeda\ncanal de yotube jose fernando cano pelaez\n@prolearn720\n@dilmedatv\n\nPuedes enviarme un correo tambien a kioskeda@atomicmail.io o kioskedainfo@atomicmail.io\nMuchas gracias por tu amable visita y te deseo un felís día.");
+}
+
 //Introducción primeros auxilios:
 a=["Los primeros auxilios son la asistencia inmediata, pricsa y temporal que se brinda a personas que han sufrido accidentes, enfermedades o lecciones en combate, antes de recibir ateción médica profesional en un centro asistencial. No se considera un tratamiento médico en sí mismo, si no un conjunto de desiciones tomadas con sensates para optimizar las condiciones del afectado hasta que sea atendido por un mpedico o trasladado a un centro de salud cercano."];
 
