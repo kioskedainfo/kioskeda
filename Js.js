@@ -13,9 +13,48 @@ function salu(){
 function remat(){
   window.open("https://kioskeda.github.io/Rematesdilmedatv");
 }
+//selector de sistemas del cuerpo humano:
+function selsish(){
+
+}
+//Selector de farmacos y enfermedades asociadas a el consumo de psicoactivos y adicciones.
+function selfar(){
+
+}
+
+//Selector de enfermendades médicas y hospitalarias.
 function selch(){
   
 }
+//Botón para abrir la página de punk y todo su contenido.
 function butpunk(){
-  window.open("https://kioskeda.github.io/kioskeda/punk.html");
+  window.open("./punk.html");
+}
+//Selector de enfermendades médicas
+function selenfmed(){
+
+}
+//Selector de medicamentos.
+function selmed(){
+
+}
+//Selector de especialidades médicas:
+function selesm(){
+
+}
+//Botón de glosario de términos conocidos, desconocidos y por investigar.
+function butglos(){
+
+}
+//Selector de hospitales:
+function selhos(){
+
+}
+//Selector de recomendaciones generales dadas por muchos médicos.
+function selrecg(){
+
+}
+//selector de hardware de equipos médicos y su software.
+function hem(){
+    
 }
