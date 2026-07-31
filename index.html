@@ -6,7 +6,7 @@
     <title title="Proyecto de desarrollo web enfocado en el &aacute;rea delos estudios avanzados de medicina con &eacute;nfasis en estudios avanzados de medicina, especialidades m&eacute;dicas, glosarios, medicamentos, farmacia, diagn&oacute;sticos, contacto, listas de hospitales, recomendaciones, equipos m&eacute;dicos, etc. Proyecto desarrollado por Jos&eacute; fernando cano pel&aacute;ez.">Medicina</title>
     <meta name="description" content="Proyecto de desarrollo web enfocado en el &aacute;rea delos estudios avanzados de medicina con enfasis en estudios avanzados de medicina, especialidades m&eacute;dicas, glorarios, medicametnos, farmacia, diagn&oacute;sticos, contacto, listas de hospitales, recomendaciones, equipos m&eacute;dicos, etc. Proyecto desarrollado por Jos&eacute; fernando cano pel&aacute;ez.">
     <meta name="author" content="Jos&eacute; cano®©">
-    <link link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./css.css">
     <script src="./Js.js"></script>
     <!--https://www.eniun.com/configuracion-metaetiqueta-viewport-web-responsive/-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,9 +23,13 @@
         <h1>Medicina</h1>
       <div class="divsec">
         <a href="./logo.png" alt="Logo principal de la oms futurista por Dilmed agilziando tu vida en este caso kioskeda." target="_parent">
-            <img src="./logo.png" style="width: 350px; height: 300px;">
-            <img src="./joselike.jpg" style="width: 450px; height: 300px;">
-            <img src="./punk.png" alt="Tu inteligencia es el arma mas valiosa!!." style="width: 350px; height: 300px;">
+            <img src="./logo.png" style="width: 250px; height: 250px;">
+        </a>
+        <a href="./josenet.jpg">
+            <img src="./joselike.jpg" style="width: 350px; height: 250px;">
+        </a>
+        <a href="./punk.png">
+            <img src="./punk.png" alt="Tu inteligencia es el arma mas valiosa!!." style="width: 250px; height: 250px;">
         </a>
       </div>
     </div>
@@ -242,7 +246,7 @@
           <option value="199"></option>
       </select>
 
-      <select name="Medicamentos." title="Sel medicamentos:" onchange="selmed()">
+      <select name="Medicamentos." title="Selector de medicamentos:" onchange="selmed()">
           <option value="200">Medicamentos:</option>
           <option value="201" title="Analg&eacute;sicos y antiinflamatorios: El parasetamol o acetaminof&eacute;n es un analg&ecute;sico antipir&eacute;tico usado para dolores leves o moderados, fiebre, dolores de cabeza, dolores musculares y dentales.">Paracetamol (Acetaminof&eacute;n):</option>
           <option value="202" title="Analg&eacute;sicos y antiinflamatorios: El ibuprofeno es un AINE (Antiinflamatorio no esteroideo) usado para dolor inflamatorio, fiebre, artritis, disminorrea, migrañas.">Ibuprofeno:</option>
@@ -545,8 +549,8 @@
           <option value="499"></option>
       </select>
       <br>
-      <select name="Especialidades médicas." title="Selector de especialidades m&eacute;dicas:" onchange="selesm()">
-          <option value="500"></option>
+      <select name="Especialidades m&eacute;dicas." title="Selector de especialidades m&eacute;dicas:" onchange="selesm()">
+          <option value="500">Especialidades m&eacute;dicas:</option>
           <option value="501"></option>
           <option value="502"></option>
           <option value="503"></option>
@@ -648,7 +652,7 @@
           <option value="599"></option>
       </select>
       <select name="Hospitales:" id="selhos" title="Selector de una lista de hospitales con el fin de lograr ponerse en contacto con la unidade médica hospitalaria, solicitar un servicio, lograr sacar una cita o solicitar alguna información." onchange="selhos()">
-          <option value="600" title=""></option>
+          <option value="600" title="">Hospitales:</option>
           <option value="601" title=""></option>
           <option value="602" title=""></option>
           <option value="603" title=""></option>
@@ -752,7 +756,7 @@
           <option value="699" title=""></option>
       </select>
       <select name="Recomendaciones" id="recom" title="Selector de las recomendaciones generales mas comunes que puede darte un médico en consulta y que puedes consultar para evitar desplazarte para verlo en persona." onchange="selrecg()">
-          <option value="700" title=""></option>
+          <option value="700" title="">Recomendaciones:</option>
           <option value="701" title=""></option>
           <option value="702" title=""></option>
           <option value="703" title=""></option>
@@ -855,8 +859,8 @@
           <option value="798" title=""></option>
           <option value="799" title=""></option>
       </select>
-      <select name="hardware y equipos médicos." id="hardequip" title="Lista de hardware utilizado en cl&iacute;nicas y hospitales y software que pueda llegarse a usar yq eu es de vital importancia." onchange="hem()">
-        <option value="800" title=""></option>
+      <select name="hardware y equipos m&eacute;dicos." id="hardequip" title="Lista de hardware utilizado en cl&iacute;nicas y hospitales y software que pueda llegarse a usar yq eu es de vital importancia." onchange="hem()">
+        <option value="800" title="">Equipos m&eacute;dicos:</option>
         <option value="801" title=""></option>
         <option value="802" title=""></option>
         <option value="803" title=""></option>
@@ -958,6 +962,61 @@
         <option value="899" title=""></option>
         
       </select>
+      <select name="diagnos" id="diagnos" title="La siguiente en la lista con las recomendaciones mas comunes que nos puede brindar un doctor de forma offline u online; entre ellas el tener en cuenta no automedicarse, tener a la mano siempre un botiqu&iacute;n de primeros auxilios, un quit de primeros auxilios con elementos m&iacute;nimos y estudiar el librito de los primeros auxilios con el fin de estar preparad@ para cualquier eventualidad.">
+        <option value="900" title="">Diagn&oacute;sticos:</option>
+        <option value="901" title=""></option>
+        <option value="902" title=""></option>
+        <option value="903" title=""></option>
+        <option value="04" title=""></option>
+        <option value="05" title=""></option>
+        <option value="06" title=""></option>
+        <option value="07" title=""></option>
+        <option value="08" title=""></option>
+        <option value="09" title=""></option>
+        <option value="10" title=""></option>
+        <option value="11" title=""></option>
+        <option value="12" title=""></option>
+        <option value="13" title=""></option>
+        <option value="14" title=""></option>
+        <option value="15" title=""></option>
+        <option value="16" title=""></option>
+        <option value="17" title=""></option>
+        <option value="18" title=""></option>
+        <option value="19" title=""></option>
+        <option value="20" title=""></option>
+        <option value="21" title=""></option>
+        <option value="22" title=""></option>
+        <option value="23" title=""></option>
+        <option value="24" title=""></option>
+        <option value="25" title=""></option>
+        <option value="26" title=""></option>
+        <option value="27" title=""></option>
+        <option value="28" title=""></option>
+        <option value="28" title=""></option>
+        <option value="28" title=""></option>
+        <option value="29" title=""></option>
+        <option value="30" title=""></option>
+        <option value="31" title=""></option>
+        <option value="32" title=""></option>
+        <option value="33" title=""></option>
+        <option value="34" title=""></option>
+        <option value="35" title=""></option>
+        <option value="36" title=""></option>
+        <option value="37" title=""></option>
+        <option value="38" title=""></option>
+        <option value="39" title=""></option>
+        <option value="40" title=""></option>
+        <option value="41" title=""></option>
+        <option value="42" title=""></option>
+        <option value="43" title=""></option>
+        <option value="44" title=""></option>
+        <option value="45" title=""></option>
+        <option value="46" title=""></option>
+        <option value="47" title=""></option>
+        <option value="48" title=""></option>
+        <option value="49" title=""></option>
+      </select>
+      <button type="button" name="butdesarr" onclick="butdesajo()" title="Est&aacute; p&aacute;gina web ha sido desarrollada por Jos&eacute; fernando cano pel&aacute;ez de la empresa dilmed agilizando tu vida con el fin de poder crear un espacio en internet para estudiar y aprender labores en el &aacute;rea de la medicina con el fin de poder a llegar a curar y aliviar las dolencias de millones de personas en un fuuro proximo no muy lejano. Se pretende y se espera que este sitio web seha el inicio para futuros allazgos cient&iacute;ficos y pueda servir de ejemplo para futuros m&eacute;dicos y doctores que puedan llegar a seguir el ejemplo de la metodolog&iacute;a de estudio con un fin postivo y con el animo de ayudar personas.">Desarrollador:</button>
         <button name="Glosario." type="button" onclick="butglos()">Glosario:</button>
         <button name="Música rock y punk." type="button" title="Por favor daclick para poder ver algunas bandas de punk:" onclick="butpunk()">Punk:</button>
   </nav>
@@ -1109,17 +1168,22 @@
             <h1>Dilmed agilizando tu vida</h1>
                 <h2>Estudios avanzados de medicina</h2>
                     <ol>
-                        <li>Especialidades m&eacute;dicas</li>
-                        <li>Glosarios</li>
-                        <li>Medicamentos</li>
-                        <li>Farmacia</li>
-                        <li>Diagn&oacute,msticos cl&iacute;nicos</li>
+                        <li>Sistemas del cuerpo humano:</li>
+                        <li>Farmacolog&iacute;a y dependencia:</li>
+                        <li>Enfermedades:</li>
+                        <li>Medicamentos:</li>
+                        <li>Especialidades m&eacute;dicas:</li>
+                        <li>Hospitales:</li>
+                        <li>Recomendaciones:</li>
+                        <li>Equ&iacute;pos m&eacute;dicos:</li>
+                        <li>Diagn&oacute;sticos cl&iacute;nicos:</li>
                         <li>Contacto de cl&iacute;nicas</li>
                         <li>Contacto de laboratorio</li>
                         <li>Contacto de hospitales</li>
                         <li>Contacto farmacias</li>
                         <li>Recomendaciones generales</li>
                         <li>Equipos e insumos m&eacute;dicos</li>
+                        <li>Glosario:</li>
                         <li>Proyecto iniciado y desarrollado por Jos&eacute; Fernando Cano pel&aacute;ez</mark></li>
                 
                 
