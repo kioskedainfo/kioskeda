@@ -66,7 +66,7 @@ function hem(){
 }*/
 //Se crea el switch para selector selch
 function selch(){
-    let aa = parseInt(document.getElementById("selsish").value, 10);
+    let aa = parseInt(document.getElementById("selsish").value, 12);
   switch (aa) {
     case 0:
       alert("Se abren los sistemas del cuerpo humano con el fin de estudiarlos uno a uno.");
@@ -75,40 +75,37 @@ function selch(){
       window.open("./introsish.html");
       break;
     case 2:
-      window.open("./);
+      window.open("./sisos.html);
       break;
     case 3:
-        window.open("./);
+        window.open("./sismusc.html);
         break;
     case 4:
-        window.open("./);
+        window.open("./sisnerv.html);
         break;
     case 5:
-        window.open("./);
+        window.open("./siscirc.html);
         break;
     case 6:
-        window.open("./);
+        window.open("./sisresp.html);
         break;
     case 6:
-        window.open("./);
+        window.open("./sisdiges.html);
         break;
     case 7:
-        window.open("./);
+        window.open("./sisexcr.html);
         break;
     case 8:
-        window.open("./);
+        window.open("./sisendoc.html);
         break;
     case 9:
-        window.open("./);
+        window.open("./sislinf.html);
         break;
     case 10:
-        window.open("./);
+        window.open("./sistegum.html);
         break;
     case 11:
-        window.open("./);
-        break;
-    case 12:
-        window.open("./);
+        window.open("./sisrepro.html);
         break;
     default:
       window.open("./);
