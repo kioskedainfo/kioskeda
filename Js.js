@@ -64,3 +64,8 @@ function selrecg(){
 function hem(){
     
 }
+//Se crea el switch para selector selch
+
+fucntion selch(){
+  switch
+}
