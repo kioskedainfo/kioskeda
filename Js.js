@@ -10,12 +10,17 @@ a=["Los primeros auxilios son la asistencia inmediata, pricsa y temporal que se 
 //Importancia de los primeros auxilios:
 b=["Acción inmediata: La rápidez en la aplicación de los primeros auxilios puede ser crucial para la supervivencia o la recuperación del indiviudo.", "Presición y temporabilidad: La asistencia debe ser precisa y temporal, enfocándose en las mediddas necesarias hasta que se pueda recibir atención médica profesional.","Intervención crucial: Los primeros auxilios no remplazan la atención mécdica, pero son una intervención crucial que puede meejorar significativamente las posinilidades de recuperación del afectado."];
 //Variable de los remates:
-c=["cocina","aseo personal","aseo geneneral","ropa interior femenina","rop interior masculina","electromesticos","marroquineria","artesanias femeninas","artesanias musculinas];
+c=["cocina","aseo personal","aseo geneneral","ropa interior femenina","rop interior masculina","electromesticos","marroquineria","artesanias femeninas","artesanias musculinas"];
+
+
 //Objetivos primeros auxilios:
-  d=["Los cuatro objetivos principales de los primeros auxilios son:","1: Conservar la vida: La prioridad principal es mantener con vida al individuo hasta que reciba atención médica profesional.","Evitar complicaciones físicas y psicológicas: Se busca prevenir el agravamiento de las lesiones o las aparicón de compolicaciones adicionale, tanto físicas como psicológicas.","3. Ayudar a la recuperación: Los primeros auxilios pueden ayudar en el proceso de recuperación del afectado, brindándolela asitencia inicial necesaria.","4: asegurar el trasltado a un centro asistencil: Se debe garantizar el transporte adecuado del indiviudo a un centro de salud cercano para que reciba la atención médica completa.","Saber primero auxilios puede ser crucial para salvar vidas, prevenir complicaciones y aliviar el dolor y la ansiedad de la víctima.", "Trabajo realizado por José fernando cano peláez de la empresa Dilmed agilizando tu vida. @prolearn720, @dilmedatv, https://kioskeda.github.io/Medicina."];
-function salu(){
-  alert(a\n b \n c \n d \n + "Trabajo realizado por José fernando cano peláez, encuentrame en yotube, dale me gusta, comentar, compartir, donar por favor y muchas grecias. \nEs para poder crecer y poder prestarte en el futuro un mejor servicio.");
+
+d=["Los cuatro objetivos principales de los primeros auxilios son:","1: Conservar la vida: La prioridad principal es mantener con vida al individuo hasta que reciba atención médica profesional.","Evitar complicaciones físicas y psicológicas: Se busca prevenir el agravamiento de las lesiones o las aparicón de compolicaciones adicionale, tanto físicas como psicológicas.","3. Ayudar a la recuperación: Los primeros auxilios pueden ayudar en el proceso de recuperación del afectado, brindándolela asitencia inicial necesaria.","4: asegurar el trasltado a un centro asistencil: Se debe garantizar el transporte adecuado del indiviudo a un centro de salud cercano para que reciba la atención médica completa.","Saber primero auxilios puede ser crucial para salvar vidas, prevenir complicaciones y aliviar el dolor y la ansiedad de la víctima.", "Trabajo realizado por José fernando cano peláez de la empresa Dilmed agilizando tu vida. @prolearn720, @dilmedatv, https://kioskeda.github.io/Medicina."];
+
+function salu() {
+  alert(a.join("\n") + "\n\n" + b.join("\n") + "\n\n" + c.join(", ") + "\n\n" + d.join("\n") + "\n\nTrabajo realizado por José fernando cano peláez, encuéntrame en youtube, dale me gusta, comentar, compartir, donar por favor y muchas gracias. \nEs para poder crecer y poder prestarte en el futuro un mejor servicio.");
 }
+
 function remat(){
   window.open("https://kioskeda.github.io/Rematesdilmedatv");
 }
@@ -29,9 +34,7 @@ function selfar(){
 }
 
 //Selector de enfermendades médicas y hospitalarias.
-function selch(){
-  
-}
+
 //Botón para abrir la página de punk y todo su contenido.
 function butpunk(){
   window.open("./punk.html");
@@ -64,28 +67,24 @@ function selrecg(){
 function hem(){
     
 }
-//Se crea el switch para selector selch
+//Se crea el switch para selector sistemas del cuerpo humano
 function selch(){
-    let aa = parseInt(document.getElementById("selsish").value, 12);
+    let aa = parseInt(document.getElementById("selsish").value, 10);
   switch (aa) {
     case 0:
       alert("Se abren los sistemas del cuerpo humano con el fin de estudiarlos uno a uno.");
       break;
     case 1:
       alert("prueba 1");
-      
       break;
     case 2:
       alert("prueba 1");
-      
       break;
     case 3:
       alert("prueba 1");
-      
         break;
     case 4:
       alert("prueba 1");
-      
         break;
     case 5:
       alert("prueba 1");
@@ -127,7 +126,7 @@ function selch(){
 
 //Se crea el switch para selector selfarn
 function selfar(){
-    let ab = parseInt(document.getElementById("selfarn").value, 48);
+    let ab = parseInt(document.getElementById("selfarn").value, 10);
   switch (ab) {
     case 13:
       alert(ab);
@@ -155,11 +154,11 @@ function selfar(){
         break;
     case 19:
       alert(ab);
-        window.open("./crack.html"
+        window.open("./crack.html");
         break;
     case 20:
       alert(ab);
-        window.open("./dick.html);
+        window.open("./dick.html");
         break;
     case 21:
       alert(ab);
@@ -326,7 +325,7 @@ function selfar(){
 
 //Se crea el switch para selector enfmed
 function selenfmed(){
-    let ab = parseInt(document.getElementById("selsish").value, 12);
+    let ab = parseInt(document.getElementById("selsish").value, 10);
   switch (ab) {
     case 60:
       alert(ab);
@@ -519,7 +518,7 @@ function selenfmed(){
     case 107:
       alert(ab);
       window.open("./");
-      brea;
+      break;
     case 108:
       alert(ab);
       window.open("./");
