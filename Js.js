@@ -77,39 +77,39 @@ function selch(){
       break;
     case 2:
       alert(aa);
-      window.open("./sisos.html);
+      window.open("./sisos.html)";
       break;
     case 3:
       alert(aa);
-        window.open("./sismusc.html);
+        window.open("./sismusc.html");
         break;
     case 4:
       alert(aa);
-        window.open("./sisnerv.html);
+        window.open("./sisnerv.html");
         break;
     case 5:
       alert(aa);
-        window.open("./siscirc.html);
+        window.open("./siscirc.html");
         break;
     case 6:
       alert(aa);
-        window.open("./sisresp.html);
+        window.open("./sisresp.html");
         break;
     case 6:
       alert(aa);
-        window.open("./sisdiges.html);
+        window.open("./sisdiges.html");
         break;
     case 7:
       alert(aa);
-        window.open("./sisexcr.html);
+        window.open("./sisexcr.html");
         break;
     case 8:
       alert(aa);
-        window.open("./sisendoc.html);
+        window.open("./sisendoc.html");
         break;
     case 9:
       alert(aa);
-        window.open("./sislinf.html);
+        window.open("./sislinf.html");
         break;
     case 10:
       alert(aa);
@@ -117,10 +117,470 @@ function selch(){
         break;
     case 11:
       alert(aa);
-        window.open("./sisrepro.html);
+        window.open("./sisrepro.html");
         break;
     default:
       alert(aa, "default");
-      window.open("./);
+      window.open("./");
+  }
+}
+
+//Se crea el switch para selector selfarn
+function selfar(){
+    let ab = parseInt(document.getElementById("selfarn").value, 48);
+  switch (ab) {
+    case 13:
+      alert(ab);
+        window.open("./farmacos.html");
+        break;
+    case 14:
+      alert(ab);
+        window.open("./ludopatia.html");
+        break;
+    case 15:
+      alert(ab);
+        window.open("./cleptomania.html");
+        break;
+    case 16:
+      alert(ab);
+        window.open("./bebembria.html");
+        break;
+    case 17:
+      alert(ab);
+        window.open("./marihuana.html");
+        break;
+    case 18:
+      alert(ab);
+        window.open("./cocaina.html");
+        break;
+    case 19:
+      alert(ab);
+        window.open("./crack.html"
+        break;
+    case 20:
+      alert(ab);
+        window.open("./dick.html);
+        break;
+    case 21:
+      alert(ab);
+        window.open("./extasis.html");
+        break;
+    case 22:
+      alert(ab);
+        window.open("./lcd.html");
+        break;
+    case 23:
+      alert(ab);
+        window.open("./cacsab.html");
+        break;
+    case 24:
+      alert(ab);
+        window.open("./heroina.html");
+        break;
+    case 25:
+      alert(ab);
+        window.open("./poper.html");
+        break;
+    case 26:
+      alert(ab);
+        window.open("./gale.html");
+        break;
+    case 27:
+      alert(ab);
+        window.open("./metaanfetaminas.html");
+        break;
+    case 28:
+      alert(ab);
+        window.open("./metadona.html");
+        break;
+    case 29:
+      alert(ab);
+        window.open("./ribotril.html");
+        break;
+    case 30:
+      alert(ab);
+      window.open("./aquineton.html");
+      break;
+    case 31:
+      alert(ab);
+      window.open("./hongos.html");
+      break;
+    case 32:
+      alert(ab);
+      window.open("./tusi.htm");
+      break;
+    case 33:
+      alert(ab);
+      window.open("./");
+      break;
+    case 34:
+      alert(ab);
+      window.open("./");
+      break;
+    case 35:
+      alert(ab);
+      window.open("./");
+      break;
+    case 36:
+      alert(ab);
+      window.open("./");
+      break;
+    case 37:
+      alert(ab);
+      window.open("./");
+      break;
+    case 38:
+      alert(ab);
+      window.open("./");
+      break;
+    case 39:
+      alert(ab);
+      window.open("./");
+      break;
+    case 40:
+      alert(ab);
+      window.open("./");
+      break;
+    case 41:
+      alert(ab);
+      window.open("./");
+      break;
+    case 42:
+      alert(ab);
+      window.open("./");
+      break;
+    case 43:
+      alert(ab);
+      window.open("./");
+      break;
+    case 44:
+      alert(ab);
+      window.open("./");
+      break;
+    case 45:
+      alert(ab);
+      window.open("./");
+      break;
+    case 46:
+      alert(ab);
+      window.open("./");
+      break;
+    case 47:
+      alert(ab);
+      window.open("./");
+      break;
+    case 48:
+      alert(ab);
+      window.open("./");
+      break;
+    case 49:
+      alert(ab);
+      window.open("./");
+      break;
+    case 50:
+      alert(ab);
+      window.open("./");
+      break;
+    case 51:
+      alert(ab);
+      window.open("./");
+      break;
+    case 52:
+      alert(ab);
+      window.open("./");
+      break;
+    case 53:
+      alert(ab);
+      window.open("./");
+      break;
+    case 54:
+      alert(ab);
+      window.open("./");
+      break;
+    case 55:
+      alert(ab);
+      window.open("./");
+      break;
+    case 56:
+      alert(ab);
+      window.open("./");
+      break;
+    case 57:
+      alert(ab);
+      window.open("./");
+      break;
+    case 58:
+      alert(ab);
+      window.open("./");
+      break;
+    case 59:
+      alert(ab);
+      window.open("./");
+      break;
+    default:
+      alert(aa, "default");
+      window.open("./");
+  }
+}
+
+
+//Se crea el switch para selector enfmed
+function selenfmed(){
+    let ab = parseInt(document.getElementById("selsish").value, 12);
+  switch (ab) {
+    case 60:
+      alert(ab);
+      window.open("./");
+      break;
+    case 61:
+      alert(ab);
+      window.open("./");
+      break;
+    case 62:
+      alert(ab);
+      window.open("./");
+      break;
+    case 63:
+      alert(ab);
+      window.open("./");
+      break;
+    case 64:
+      alert(ab);
+      window.open("./");
+      break;
+    case 65:
+      alert(ab);
+      window.open("./");
+      break;
+    case 66:
+      alert(ab);
+      window.open("./");
+      break;
+    case 67:
+      alert(ab);
+      window.open("./");
+      break;
+    case 68:
+      alert(ab);
+      window.open("./");
+      break;
+    case 69:
+      alert(ab);
+      window.open("./");
+      break;
+    case 70:
+      alert(ab);
+      window.open("./");
+      break;
+    case 71:
+      alert(ab);
+      window.open("./");
+      break;
+    case 72:
+      alert(ab);
+      window.open("./");
+      break;
+    case 73:
+      alert(ab);
+      window.open("./");
+      break;
+    case 74:
+      alert(ab);
+      window.open("./");
+      break;
+    case 75:
+      alert(ab);
+      window.open("./");
+      break;
+    case 76:
+      alert(ab);
+      window.open("./");
+      break;
+    case 77:
+      alert(ab);
+      window.open("./");
+      break;
+    case 78:
+      alert(ab);
+      window.open("./");
+      break;
+    case 79:
+      alert(ab);
+      window.open("./");
+      break;
+    case 80:
+      alert(ab);
+      window.open("./");
+      break;
+    case 81:
+      alert(ab);
+      window.open("./");
+      break;
+    case 82:
+      alert(ab);
+      window.open("./");
+      break;
+    case 83:
+      alert(ab);
+      window.open("./");
+      break;
+    case 84:
+      alert(ab);
+      window.open("./");
+      break;
+    case 85:
+      alert(ab);
+      window.open("./");
+      break;
+    case 86:
+      alert(ab);
+      window.open("./");
+      break;
+    case 87:
+      alert(ab);
+      window.open("./");
+      break;
+    case 88:
+      alert(ab);
+      window.open("./");
+      break;
+    case 89:
+      alert(ab);
+      window.open("./");
+      break;
+    case 90:
+      alert(ab);
+      window.open("./");
+      break;
+    case 91:
+      alert(ab);
+      window.open("./");
+      break;
+    case 92:
+      alert(ab);
+      window.open("./");
+      break;
+    case 93:
+      alert(ab);
+      window.open("./");
+      break;
+    case 94:
+      alert(ab);
+      window.open("./");
+      break;
+    case 95:
+      alert(ab);
+      window.open("./");
+      break;
+    case 96:
+      alert(ab);
+      window.open("./");
+      break;
+    case 97:
+      alert(ab);
+      window.open("./");
+      break;
+    case 98:
+      alert(ab);
+      window.open("./");
+      break;
+    case 99:
+      alert(ab);
+      window.open("./");
+      break;
+    case 100:
+      alert(ab);
+      window.open("./");
+      break;
+    case 101:
+      alert(ab);
+      window.open("./");
+      break;
+    case 102:
+      alert(ab);
+      window.open("./");
+      break;
+    case 103:
+      alert(ab);
+      window.open("./");
+      break;
+    case 104:
+      alert(ab);
+      window.open("./");
+      break;
+    case 105:
+      alert(ab);
+      window.open("./");
+      break;
+    case 106:
+      alert(ab);
+      window.open("./");
+      break;
+    case 107:
+      alert(ab);
+      window.open("./");
+      brea;
+    case 108:
+      alert(ab);
+      window.open("./");
+      break;
+    case 109:
+      alert(ab);
+      window.open("./");
+      break;
+    case 110:
+      alert(ab);
+      window.open("./");
+      break;
+    case 111:
+      alert(ab);
+      window.open("./");
+      break;
+    case 112:
+      alert(ab);
+      window.open("./");
+      break;
+    case 113:
+      alert(ab);
+      window.open("./");
+      break;
+    case 114:
+      alert(ab);
+      window.open("./");
+      break;
+    case 115:
+      alert(ab);
+      window.open("./");
+      break;
+    case 116:
+      alert(ab);
+      window.open("./");
+      break;
+    case 117:
+      alert(ab);
+      window.open("./");
+      break;
+    case 118:
+      alert(ab);
+      window.open("./");
+      break;
+    case 119:
+      alert(ab);
+      window.open("./");
+      break;
+    case 120:
+      alert(ab);
+      window.open("./");
+      break;
+    case 121:
+      alert(ab);
+      window.open("./");
+      break;
+    case 122:
+      alert(ab);
+      window.open("./");
+      break;
+    default:
+      alert(ab);
   }
 }
