@@ -1,5 +1,5 @@
 //Botonos básicos
-function butdesajo(){
+/*function butdesajo(){
   alert("Página web desarrollada por José fernando cano peláez de la empresa Dilmed agilizando tu vida.\nLa empresa se encuentra en proceso de creación y te solicito ayuda para poder continuar su desarrollo bien sea con una donación, una compra de un producto o compartiendo la página, los canales de yotube, los enlaces, etc.\nPuedes encontrarme en:\nhttps://kioskedainfo.github.io/kioskeda\ncanal de yotube jose fernando cano pelaez\n@prolearn720\n@dilmedatv\n\nPuedes enviarme un correo tambien a kioskeda@atomicmail.io o kioskedainfo@atomicmail.io\nMuchas gracias por tu amable visita y te deseo un felís día.");
   window.open("https://www.youtube.com/@josefernandocanopelaez7242");
 }
@@ -63,9 +63,54 @@ function selrecg(){
 //selector de hardware de equipos médicos y su software.
 function hem(){
     
-}
+}*/
 //Se crea el switch para selector selch
-
-fucntion selch(){
-  switch
+function selch(){
+    let aa = parseInt(document.getElementById("selsish").value, 10);
+  switch (aa) {
+    case 0:
+      alert("Se abren los sistemas del cuerpo humano con el fin de estudiarlos uno a uno.");
+      break;
+    case 1:
+      window.open("./introsish.html");
+      break;
+    case 2:
+      window.open("./);
+      break;
+    case 3:
+        window.open("./);
+        break;
+    case 4:
+        window.open("./);
+        break;
+    case 5:
+        window.open("./);
+        break;
+    case 6:
+        window.open("./);
+        break;
+    case 6:
+        window.open("./);
+        break;
+    case 7:
+        window.open("./);
+        break;
+    case 8:
+        window.open("./);
+        break;
+    case 9:
+        window.open("./);
+        break;
+    case 10:
+        window.open("./);
+        break;
+    case 11:
+        window.open("./);
+        break;
+    case 12:
+        window.open("./);
+        break;
+    default:
+      window.open("./);
+  }
 }
