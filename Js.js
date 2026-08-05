@@ -73,58 +73,58 @@ function selch(){
       break;
     case 1:
       alert("prueba 1");
-      window.open("./introsish.html");
+      
       break;
     case 2:
       alert("prueba 1");
-      window.open("./sisos.html)";
+      
       break;
     case 3:
       alert("prueba 1");
-        window.open("./sismusc.html");
+      
         break;
     case 4:
       alert("prueba 1");
-        window.open("./sisnerv.html");
+      
         break;
     case 5:
       alert("prueba 1");
-        window.open("./siscirc.html");
+      
         break;
     case 6:
       alert("prueba 1");
-        window.open("./sisresp.html");
+      
         break;
     case 6:
       alert("prueba 1");
-        window.open("./sisdiges.html");
+      
         break;
     case 7:
       alert("prueba 1");
-        window.open("./sisexcr.html");
+      
         break;
     case 8:
       alert("prueba 1");
-        window.open("./sisendoc.html");
+      
         break;
     case 9:
       alert("prueba 1");
-        window.open("./sislinf.html");
+      
         break;
     case 10:
       alert("prueba 1");
-        window.open("./sistegum.html);
+      
         break;
     case 11:
       alert("prueba 1");
-        window.open("./sisrepro.html");
+        
         break;
     default:
       alert("prueba 1");
-      window.open("./");
+      
   }
 }
-
+/*
 //Se crea el switch para selector selfarn
 function selfar(){
     let ab = parseInt(document.getElementById("selfarn").value, 48);
@@ -584,3 +584,4 @@ function selenfmed(){
       alert(ab);
   }
 }
+*/
