@@ -72,42 +72,55 @@ function selch(){
       alert("Se abren los sistemas del cuerpo humano con el fin de estudiarlos uno a uno.");
       break;
     case 1:
+      alert(aa);
       window.open("./introsish.html");
       break;
     case 2:
+      alert(aa);
       window.open("./sisos.html);
       break;
     case 3:
+      alert(aa);
         window.open("./sismusc.html);
         break;
     case 4:
+      alert(aa);
         window.open("./sisnerv.html);
         break;
     case 5:
+      alert(aa);
         window.open("./siscirc.html);
         break;
     case 6:
+      alert(aa);
         window.open("./sisresp.html);
         break;
     case 6:
+      alert(aa);
         window.open("./sisdiges.html);
         break;
     case 7:
+      alert(aa);
         window.open("./sisexcr.html);
         break;
     case 8:
+      alert(aa);
         window.open("./sisendoc.html);
         break;
     case 9:
+      alert(aa);
         window.open("./sislinf.html);
         break;
     case 10:
+      alert(aa);
         window.open("./sistegum.html);
         break;
     case 11:
+      alert(aa);
         window.open("./sisrepro.html);
         break;
     default:
+      alert(aa, "default");
       window.open("./);
   }
 }
