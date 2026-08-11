@@ -1,3 +1,9 @@
+fucntion formin(){
+  alert("Estamos abrinedo un formulario donde se almacenar&aacute;n los datos del pasciente con el fin de seguir la historia cl&iacute;nica del mismo.");
+  windoww.open("./hismed.html");
+  alert("prueba 1");
+}
+
 Botonos básicos
 
 //Introducción primeros auxilios:
