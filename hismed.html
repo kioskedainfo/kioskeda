@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title title="Proyecto de desarrollo web enfocado en el &aacute;rea delos estudios avanzados de medicina con &eacute;nfasis en estudios avanzados de medicina, especialidades m&eacute;dicas, glosarios, medicamentos, farmacia, diagn&oacute;sticos, contacto, listas de hospitales, recomendaciones, equipos m&eacute;dicos, etc. Proyecto desarrollado por Jos&eacute; fernando cano pel&aacute;ez.">Medicina</title>
+    <meta name="description" content="Proyecto de desarrollo web enfocado en el &aacute;rea delos estudios avanzados de medicina con enfasis en estudios avanzados de medicina, especialidades m&eacute;dicas, glorarios, medicametnos, farmacia, diagn&oacute;sticos, contacto, listas de hospitales, recomendaciones, equipos m&eacute;dicos, etc. Proyecto desarrollado por Jos&eacute; fernando cano pel&aacute;ez.">
+    <meta name="author" content="Jos&eacute; cano®©">
+    <link rel="stylesheet" href="./css.css">
+    <script type="text/javascript" lang="javascript" src="./js.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" conten="medicina, desarrollo, software, tegnologia, tegnolog&iacute;a, infotm&aacute;tica, informatica, ciencia, curaci&oacute;n, curación, salud, empleo, estudio, contrato, labor, enfermeria, psiquiatria, psicologia, pediatria, laboratorio, hospital, clínica, doctor, ginecologia, vagina, pene, sexo, senos, seno, salud, musculo, hueso, cartilago, intestino, fotos, penetracion, testosterona, oncologia, trabajo, sociall, celulá, átomo, adn, arn, desarrollo web.">
+    <meta name="robots" content="index, follow">
+
+</head>
+<body onload="salu()" background="background.jpg">
+  <header>
+    <div class="divprin">
+        <h1>Medicina</h1>
+      <div class="divsec">
+        <a href="./logo.png" alt="Logo principal de la oms futurista por Dilmed agilziando tu vida en este caso kioskeda." target="_parent">
+            <img src="./logo.png" style="width: 250px; height: 250px;">
+        </a>
+        <a href="./josenet.jpg">
+            <img src="./joselike.jpg" style="width: 350px; height: 250px;">
+        </a>
+        <a href="./punk.png">
+            <img src="./punk.png" alt="Tu inteligencia es el arma mas valiosa!!." style="width: 250px; height: 250px;">
+        </a>
+      </div>
+    </div>
+  </header>
+  <br>
+  <nav>
+    <button type="button" onclick="butini()" id="bi" title="Ingreso a la p&aacute;gina de Inicio.">Inicio</button>
+      <!--<button type="button" onclick="remat()" title="Enlace a los remates.">Dilmedatv remates</button>-->
+      <!--<button type="button" onclick="tbx-men" title="Almacen y taller de bicicletas los amigos X-men">X-Men</button>-->
+      <select name="selsish" id="selsish" name="Sistemas del cuerpo humano." title="Por favor selecciones un sistema del cuerpo humano que quieras estudiar:" onchange="selch()">
+          <option value="0" title="Los sistemas del cuerpo son conjuntos de &oacute;rganos relacionados que trabajan de manera coordinada para cumplir una funci&oacute;n vital espec&iacute;fica que funciona como como una red integrada donde cada sistema depende de los demas sistemas para su correcto funcionamiento y un total y buen desempe&ntilde;o.">Sistemas:</option>
+          <option value="1" title="El cuerpo humano es una m&aacute;quina biol&oacute;gica compoleta mente compleja que funciona de forma correcta y se organiza en 5 sistemas principales los cuales realizan diferentes tareas espec&iacute;ficas y se interconectan de forma de diferentes formas seg&uacute;n su contenido y su descripción:">Introducci&oacute;n:</option>
+          <option value="2" title="El sistema &oacute;seo es mas que un armaz&oacutE;n r&iacute;gido, din&aacute;mico, vivo y en constante renovaci&oacute;n:">Sistema &oacute;seo:</option>
+          <option value="3" title="El sistema muscular es el que le da movimimiento al cuerpo hecho por mas de 600 musculos distribuidos por todo el cuerpo permitiendo movernos, contraerse, relajarse, tiran de los huesos para poder caminar, correr o gesticular. Hay musuculos que trabajan de manera involuntaria como el corazon o el movimiento de los intestinos.">Sistema muscular:</option>
+          <option value="4" title="El sistema nerviso se denomina el sitema director de la orquesta, compuesto por cerebro, médula espinal, y una red gigante de &oacute;rganos. controla todo lo que ocurre recibiendo informaci&oacute;n del exterior de los sentidos como la vista, el tacto, el olfato, el gusto, o la audici&oacute;n. Es procesado en el cerebro y envia ordenes de forma muy veloz a los organos y a los m&uacute;sculos. Controla lo que haces sin pensar como pensar o parpadear.">Sistema nervioso:</option>
+          <option value="5" title="El sistema circulatorio es la red de transporte de nutrientes y otros elementos necesarios para la vida de las c&eacute;lulas y el cuerpo humano. Contiene coraz&oacute;n, vasos sangu&iacute;neos (arterias, venas y capilares.). Funciona como el camion de reparto del cuerpo utilizando el coraz&oacutE;n como bomba que impulsa la sangre o plasma para llevar el &oacute;xigeno y nutrientes absolutamente a todas las c&eacute;lulas del cuerpo.">Sistema circulatorio:</option>
+          <option value="6" title="El sistema respiratorio es el intercambio de gas en el cuerpo humano. Se encuentra compuesto por la nariz, la traquia, los bronquios y los pulmones absorbiendo el &oacute;xigeno O<sub>2</sub> del aire que respiramos vital para que las c&eacute;lulas produzcan engergia y expulsa el di&oacute;xido de carbono CO<sub>2</sub> el cual es el descecho que produce nuestro cuerpo al funcionar.">Sistema respitatorio:</option>
+          <option value="7" title="El sistema digestivo es la fabrca de energ&iacute;a constituido por la boca, el es&oacutE;fago, el est&oacute;mago y los intestinos (Delgado y grueso), el h&iacute;gado, y p&aacute;ncreas. Se encarga de titurar y disolver alimenetos de ingestion apra convertirlos en nutrientes microsc&oacute;picos que la sangre puede absorber, lo que no sirve lo descecha en forma de heces fecales.">Sistema digestivo:</option>
+          <option value="8" title="El sistema excretor es el filtro de agua echo por los ri&ntilde;ones, los ur&eacute;tres, la vegiga y la uretra limpiando as&iacute; la sangre. Los riñones funcionan como coladores que extraen toxinas y exceso de agua en la sangre para fabricar la orina y expulsarla del cuerpo.">Sistema excretor o urinario:</option>
+          <option value="9" title="El sistema endocrino es el mensajero qu&iacute;mico constituido por gl&aacute;ndulas repartidas por todo el cuerpo como la tiroides, la hip&oacute;fisis o las gl&aacute;ndulas subrrenales liberando hormonas como mensajeros qu&iacute;micos en la sangre controlando cosas que pasan a medio o largo plazo como el crecimiento, el estado de animo, el metabolismo y el desarrollo sexual.">Sistema endocrino:</option>
+          <option value="10" title="El sistema inmunol&oacute;gico y linf&aacute;tico es escudo de defensa hecho de gl&oacute;bulos blancos, ganglios linf&aacute;ticos, el bazo y la linfa. Es tu ej&eacute;rcito privado. Detecta y combate a los invasores de fuera, como virus, bacterias y par&aacute;sitos, para evitar que te enfermes. Es la frontera entre tu cuerpo y el mundo exterior. Te protege de micr&oacute;bios, regula tu temperatura corporal a trav&eacute;s del sudor y te permite sentir el fr&iacute;o, el calor o el dolor.">Sistema inmunol&oacute;gico y linf&aacute;tico:</option>
+          <option value="11" title="El sistema tegumentario es la primera l&iacute;nea de protecci&oacute;n compuesto de la piel el c&uacute;l es el &oacute;rgano mas grande del cuerpo, el cabello y las u&ntilde;as.">Sistema Tegumentario:</option>
+          <option value="12" title="El sistema reproductor constituye la continuidad de la vida. Esta constituido en la parte femenina por ovarios, &uacute;tero, tormpas de falopio y vagina. En la parte masculina compuesto de testiculos, prostata y pene. Su funci&oacute;n es la reproducci&oacute;n de la especie, permitiendo la creaci&oacute;n de nuevos seres humanos mediante la uni&oacute;n de un &oacute;vulo y un espermatozoide.">Sistema reproductor:</option>
+      </select>
+      <select title="Las enfermedades asociadas a la farmacodependencia, adicciones, psicol&oacute;gicas y psiqu&iacute;atricas que tambien pueden ser conocidas como trastornos mentales son afecciones qeu impactan de maenera significativa el estado del &aacute;nimo, el pensamiento, el comportamiento y la capacidad de relacionarse con el entorno y afrontar las tareas o demandas que se nos presentan en la vida diaria." name="Farmacodependencia y adicciones." title="Son una clasifiaci&oacute;n estudiada y con el fin de llegar a poder ayudar a curar a personas de cualquier edad o genero sin discriminaci&oacute;n alguna, con el fin de poder ayudar a cada pasciente en su proceso de recuperaci&oacute;n con la ayuda de especialidades m&eacute;dicas, medicamentos, terapias basadasen estudios m&eacute;dicos seg&uacute;n los resultados correctamente almacenados de forma detallada en forma de registros diarios, con correcciones y aplicaci&oacute;n de talleres pr&aacute;cticos donde las personas que puedan llegar a desarrollarlos puedan llegar a volver a lograr una vida normal dentro del ambito personal, familiar, conyugal, social y laboral de una forma normal sin tener que volver a interesarse por el tema de la recaida en adicci&oacute;n por sustaancias qu&iacute;micas, conductuales, ludopatia o cleptomania entre otras." onchange="selfar()" name="selfarn" id="selfarn">
+          <option value="13" title="Por favor elige uno de las siguientes tareas para aprender mas para farmacodependencia y adicciones:">Farmacos:</option>
+          <option value="14" title="La ludopatia, trastorno del juego o juego compulsivo es una adicci&oacute;n comportamental que se caracteriza por resistir el impulso de apostar y es una condici&oacute;n clasificada como trastorno adictivo sin sustancia que provoca graves problemas financieros, emocionales, personales y familiares, y que conlleva a trastornos como el estress, la depresi&oacute;n, la euforia, la melancolia, la coadicci&oacute;n, entre otros. Sus sintomas principales son tolerancia, perdida de control, efcto de perspicacia, afectaci&oacute;n emocional, metiras, ocultaci&oacute;n y en algunos casos severos cleptomania. El juego patol&oacute;gico tiene un entorno domin&oacute; que destruye el entorno familiar, social, personal, laboral y de pareja del individuo. Se advierte que esta adicci&oacute;n puede llevar a situaciones de ruina financiera en situaciones extremas de crisis afectando la salud mental de manera profunda. La ludopatia se puede tratar con la ayuda de un profesional en la materia con terapia cognitivo-conductual, apoyo en grupos de auto ayuda como jugadores an&oacute;nimos, medicamentos medicados por un especialista para controlar ansiedad e impulso de juego obsesivo o compulsivo desmedido.">Ludopatia:</option>
+          <option value="15" title="La cleptomania es un trastorno del control de los impuslsos, caracterizado por la incpacidad recurrentepara resistir el deseo de robar objetos pudiendo convertir a una persona en acumulador conpulsivo, lo ue puede llevar a perjudicar en gran medida una gran cantidad de personas, entre ellas,el conyugue, y las personas que se pueden ver afectadas por este fen&oacute;meno. A diferencia de los ladrones comunes las personas con colpetomania no roban objetos o dinero por necesidad económ&iacute;ca, si no tambien por lucro personal, venganza y valor monetariao de las cosas lo que podria convertir a una persona en habitante de calle ya sea victimario o vitima. Este tipo de pascientes deben ser tratados en un hospital con el fin de ense&ntilde;arles que el hurto e sun delito que convierte a personas de todas las edades en esclavos trabajando para sostener a aquellos que se adue&ntilde;an de lo ajeno. Los objetos robados no tienen ningun valor para el cleptomano y confrecuencia los botan, los tiran o los esconden loq eu se convierte en un futuro en un problema de salud medioambiental, ya que el desorden que puede llegar a generar estos pascientes no permiten el progreso de las personas que lo rodean. Normalmente este tipo de causas se presenta por la adicci%oacute;n de personas a el licor, el cigarrillo, y otras sustancias adicitvas como el juego con apuestas, etc. Es preciso que este tipo de situaciones que se presentan son la causas de futuras consecuencias que el ser humano podria evitar.">Cleptomania:</option>
+          <option value="16" title="El tabaco es una planta, cuyas hojas se secan y se curan para ser luego fumadas, masticadas, o inhaladas. Contiene nicotina entre otras sustancias adictivas y perjudiciales para el organismo humano y ataca en gran medida el sistema nerviosos central.">Tabaco:</option>
+          <option value="17" title="Las bebidas alcoholicas o embriagantes son bebidas que contienen alcohol, metanol el cual es un compuesto qu&iacute;mico psicoactivo que actua como el depresor del sistema nervioso central alterando el sestado de &aacute;nimo, l persepci&oacute;n y la conducta.">Bebidas embriagantes:</option>
+          <option value="18" title="La marihuana o cannabis es una planta compuesta principalmente por thc(tetrahidrocannabinol, responsable de los efectos psicoactivos o del subidon, el CBD (cannabidiol), del cual se dice que no genera una alteraci&oacute;n mental y tiene supestamente diversas aplicacines terap&eacute;uticas. Esta sustancia puede tener multiples efectos nocivos a corto, mediano y largo plaza. Presiona click para ver mas informaci&oacute;n al respecto.">Marihuana:</option>
+          <option value="19" title="La cocaina es un potente estimulante del sistema nervioso central derivado de las hojas dela platan de coca. Genera una alta adicci&oacute;n f&iacute;sica y p0sicol&oacute;gica debido a la rapidez con la que altera los niveles de dopamina en el cerebro creando un ciclo compulsivo de consumo.">Coca&iacute;na:</option>
+          <option value="20" title="El carack es una forma de cocaina en base libre, que se procesa mezclando clorhidrato de cocaina, en polvo con agua, y bicarbonato de sodio. Al calentarse la mezcla forma peque&ntilde;os cristales o piedras comunmente conocida como roca, que se fuman produciendo una chasquido al quemarse raz&oacute;n por la cual el nombre. Al inhalar el vapor la sustancia llega al cerebro en cuestion de segundo, generando un efecto extremadamente r&aacute;pido e intenso, pero muy breve.">Crack:</option>
+          <option value="21" title="El cloruro de metileno normalmente conocido como diclorometano es un disolvente qu&iacute;mico industrial potente e incoloro que normalemnte se usa como como decapante depintura y desengrasante. Es un sustancia que genera adicci&oacute;n y es conseguida de forma clandestina tambien conocida como dick o lady D.">Cloruro de metileno:</option>
+          <option value="22" title="El extasis o MDMA (3,4 metilendioximetanfetamina) que actua como estimulante y alucin&oacute;geno conocida comunmente como molly cuando se presenta en polvo o cristal(pastilla /tacha).Genera aumento r&aacute;pido en laliberaci&oacute;n de tres neurotransmisores (serotonina, dopamina y noradrenalina) lo cual actua profundamente de forma nociva en el estado emocional y lapercepci&oacute;n censorial.">Extas&iacute;s:</option>
+          <option value="23" title="El lcd (dietilamida de &aacute;cido lis&eacute;rgico, conocida popularmente como acido y de forma menos comun y erronea como lcd o lsd-25). Es una sustancia psicodelica o alucin&oacute;gena de las mas potentes que existe y se puede llegar a comercializar en gran medida en peque&ntilde;os cuadrados de papel secante (trips y bloques) Gotas l&iacute;das o diminutas pastillas(micropuntos). ">LCD:</option>
+          <option value="24" title="El cacao sabanero comunmente conocido en colombia como borrachero, floripondio, o brugmancia es una planta cuyos frutos y florez contienen alcaloides trip&aacute;nicos. El cacao sabanero es una sustancia altamente t&oacute;xica delirante que no genera adicci&oacute;n qu&iacute;mica directa y es una sustancia almante toxica utilizada en delitos de sumisi&oacute;n qu&iacute;mica o por intoxicaci&oacute;n accidental aguda que puede conllevar a alucinaciones y puede llegar a cambiar todo el estadonormal de una persona.">Cacao sabanero:</option>
+          <option value="25" title="La hero&iacute;na es un opio&iacute;de ilegal extremadamente adictivo sintetizado atravez de la morfina, sustancia extraida directamente de la amapola (Papaver somnifero). Puede ser consumida inyectada, inhalada o fumada y qctua en los receptores de opioides en el cerebro para bloquear la sensaci&oacute;n de dolor y liberar grandes cantidades de dopamina.">Heroina:</option>
+          <option value="26" title="El poper es el nombre con el que se conoce los diversos nitritos de alquilo (nitrito de amilo, isobutilo, isopropilo). Es una sustancia l&iacute;quida e incolora y muy vol&aacute;til que se consume exclusivamente mediante inhalaci&oacute;n. Suele usarse en consumos de ocio nocturno, apat&iacute;a, adicci&oacute;n en temas de sexualidad, etc.">Poper:</option>
+          <option value="27" title="El pegante de contacto normalemente conocido como gale o sacol, es una adhesivo l&iacute;vo l&iacute;quido a base de solventes, resinas, caucho como el comunmente fabricado por pegaucho en sus diversas presentaciones. Esta sustancia es adictiva y se usa comunmente en zapateria, bricolage, marroquineria, carpinteria, cuero, madera, cauchon y carton. Esta sustancia es usada de forma inhalable; es caracterizada por ser una de las sustancias mas perseguidas por las personas, tambien conocidas como coadictos convirtiendolos en personas con cleptomania y mitoman&iacute;a ya que a este tipo de pascientes son con frecuencia golpeados, humillados, maltratados o robados por suposiciones erroneas de pensamientos mediocrees que piensan que no pueden aportar algo a la sociedad. Ademas los roban y la gente los imita para superarlos(Temas de envidia) los consimodres de otras sustancias legales, l&iacute;citas o il&iacute;citas. En algunas ocasiones estas sustanciasson alteradas paradestruir a los pascientes y muchos de estos pascientes no pueden llevar una vida normal a base de los insultos, el maltrato, la discriminaci&oacute;n de estos pascientes y la constante negaci&oacute;n de algunas personas para que el pasciente pueda llegar a llevar una vida normal. Esta sustancia produce un sindrome de abstinecia, dolor, euforia, ansiedad, baja autoestima por causa de el maltrato que se vuelve generalizado por las personas que lo rodean.">Gale:</option>
+          <option value="28" title="La metanfetamina o desoxifedrina es un estimulante sint&eacute;tico muy potente del sistema nervioso central, que afecta los niveles de neurotransmisores como la dopamina en el cerebro. Viene en forma de polvo, pastillas o cristales, conocido como cristal, ice, meth o tina. Produce sensaci&oacute;n de euforia, hiperactividad, insommnio, perdida drastica del apetito entre otras que en futuros estudios seguiremos consultando.">Meta-anfetaminas:</option>
+          <option value="29" title="La metadona es un opioide sint&eacute;tico que actua como un agonista completo de los receptores opioides en el cerebro. A diferencia de otros opioides de acci&oacute;n corta en el cerebro, como la morf&iacute;na o la hero&iacute;na, y contiene una acci&oacute;n prolongada en el cuerpo ">Metadona:</option>
+          <option value="30" title="El Ribotril es el nombre comercial mas conocido del clonazepan, el cu&aacute;l es un farmaco perteneciente a la familia de benzodiacepinas usado coomunmente en trastornos de ansiedad, p&aacute;nico, cr&iacute;sis de angustia, agorafobia, y sintomas agudos de ansiedad severa debido a un potente efecto ansiol&iacute;tico y sedante.">Ribotril:</option>
+          <option value="31" title="El akineton o zetas es el nombre comercial del biperideno,  es un medicamento de uso m&eacute;dico regulado perteneciente a los farmacos antocolinerg&eacute;ticos que puede ser usado para bloquear los efectos de la acetilcolina que es un neurotransmisor del sistema nervioso central y su enfoque o acci&oacute;n es para el uso de mal de parquison y sintomas extrapiramidales antisic&oacute;ticos.">Aquineton:</option>
+          <option value="32" title="Los hongos Se refieren a seres vivos del reino fungi, como setas o mohos, o a sustancias psicoactivas  como la ciloscibina, psilocina.">Hongos:</option>
+          <option value="33" title="">Tusi:</option>
+          <option value="34" title="Los vapeadores tambien conocidos como sistemas electr&oacute;nicos de administraci&oacute;n de nicotina son dispositivos electr&oacute;nicos que contienen internamente una bateria que calientan un l&iacute;quido el cu&aacute;l se convierte en aerosol que lueg es inhalado conteniendo en sus vapores o gases una alta toxicidad a diferencia de lo que normalmente se conoce de ellos. Contienen nicotina, sustancias qu&iacute;micas, aromatizantes y solventes nocivos para la salud.">Vapeadores:</option>
+          <option value="35" title="La cafe&iacute;na es un alcaloide de origen natural que actua como estimulante del sistema nervioso central el cual se encuentra presente en hojas, semillas o frutos de plantascomo el t&eacute;, el cacao o la nu&eacute;z de cola. Tambien es a&ntilde;adido de forma sint&eacute;tica a refrescos y bebidas energ&eacute;"ticas que al ser consumida es absorbida de forma r&aacute;pida por el cuerpo bloqueando los receptores de adenosina en el cerebro el cu&aacute;l es un neurotransmisor que promueve el sue&ntilde;o y la relajaci&oacute;n. Cuando usamos cafeina evitamos que el cuerpo sienta somnolencia y estimula la liberaci&oacute;n de sustancias como la dopamina y la adrenalina lo que puede no ser normal y luego generar un sintoma de abstinencia que se puede prensentar seg&uml;n la persona como ansiedad, estres, depresi&oacute;n, etc. Se suelen evidencias en estos pascientes una fuerte adicci&oacute;n a las gaseosas de cola con cafeina y la ingesta peri&oacute;dica de esta sustancia con el desayuno o de forma social. Normalmente usada para justificar largas jornadas deinsomnio injustificado lo que luego puede llegar a generar transtornos de apatia, obsesivos compulsivos, acumulaci&oacute;n compulsiva de objetos, trastorno bipolar, esquizofrenia, etc.>Cafe&iacute;na:</option>
+          <option value="36" title="Los opi&oacute;ides son una clase de f&aacute;rmacos y sustancias que act&uacute;an sobre los receptores opioides del sistema nervioso central y perif&eacute;rico. Se emplean principalmente como potentes analg&eacute;sicos para calmar dolores intensos (como los derivados de cirug&iacute;as, traumatismos graves o tratamientos oncol&oacute;gicos), aunque tambi&eacute;n existen variedades il&iacute;citas.">Opi&oacute;ides:</option>
+          <option value="37" title="Los opi&oacute;ides sint&eacute;ticos son f&aacute;rmacos creados &iacute;ntegramente por el ser humano mediante s&iacute;ntesis qu&iacute;mica como el fentanilo y el fentalino y el tramadol.">Opi&oacute;ides sint&eacute;ticos:</option>
+          <option value="38" title="Las benzodiacepinas son una clase de medicamentos psicotr&oacute;picos que act&uacute;an como depresores del sistema nervioso central. Son ampliamente recetadas por la medicina moderna debido a sus propiedades ansiol&iacute;ticas (calman la ansiedad), sedantes, relajantes musculares y anticonvulsivas.">Benzodiazepinas:</option>
+          <option value="39" title="Los estimulantes por receta tambien conocidos como estimulantes del sistema nervioso central recetado son medicamentos farmacol&oacute;gicos dise&ntilde;ados para aumentar la actividad cerebral mejorando temporalmente el estado de alerta, la atenci&oacute;n, la energ&iacute;a y la concentraci&oacute;n.">Estimulantes por receta:</option>
+          <option value="40" title="El sexo o adicci&oacute;n al sexo es conocido cl&iacute;nicamente como trastorno de hypersexualidad o conducta sexual compulsiva o dependencia sexual es un trastorno mental que se caracteriza por un patron repetitivo y descontrolado de impulsos, fantasias o conductas sexuales que la persona no puede gestionar ni detener apesar de las consecuencias negativas graves que esto genera en su vida personal, lboral, familiar y emocional que se manifiesta pr un deseo o paetito sexual elevado completamente normal y saludable con una perdida de control. se manifiesta por un deseo de tener sexo como metodo de perder estress, ansiedad, depresi&oacute;n o vacio emocional, entre otros.">Sexo:</option>
+          <option value="41" title="Las anfetaminas son un grupo de f&aacute;rmacos sint&eacute;ticos potentes que actuan como estimulantes del sistema nervioso central. Aunque en la historia de la medicina cl&iacute;nica han sido usadas tambien se conoce su uso de forma il&iacute;cita elevando su potencial de abuso, tolerancia y dependencia.">Anfetaminas:</option>
+          <option value="42" title="El fentanilo ">Fentanilo:</option>
+          <option value="43" title="">MDMA:</option>
+          <option value="44" title="">Ketamina:</option>
+          <option value="45" title="">Psilocibina:</option>
+          <option value="46" title="">Gasolina:</option>
+          <option value="47" title="">Tegnolog&iacute;a:</option>
+          <option value="48" title="">:</option>
+          <option value="49" title="">En construcci&oacute;n:</option>
+          <option value="50" title="">En construcci&oacute;n:</option>
+          <option value="51" title="">En construcci&oacute;n:</option>
+          <option value="52" title="">En construcci&oacute;n:</option>
+          <option value="53" title="">En construcci&oacute;n:</option>
+          <option value="54" title="">En construcci&oacute;n:</option>
+          <option value="55" title="">En construcci&oacute;n:</option>
+          <option value="56" title="">En construcci&oacute;n:</option>
+          <option value="57" title="">En construcci&oacute;n:</option>
+          <option value="58" title="">En construcci&oacute;n:</option>
+          <option value="59" title="">Insomnio:</option>
+      </select>
+      <select onchange="selenfmed()" name="enfmed" title="Enfermedades m&eacute;dicas seg&uml;n su clasificaci&oacute;n:">
+          <option value="60" title="Las enfermedades m&eacute;dicas m&aacute;s comunes entre las mas de 10000 enfermedades que pueden llegar a afectar al ser humano pueden ser comunes, raras, gen&eacute;ticas, hereditarias, de transmisi&oacute;n sexual, de salud mental entre otras. La listada sera en&uacute;merada a continuaci&oacute;n:">Enfermedades:</option>
+          <option value="61" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria viral:">Gripe:</option>
+          <option value="62" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria viral:">Covid-19:</option>
+          <option value="63" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria viral:">VIH/SIDA:</option>
+          <option value="64" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria viral:">Dengue:</option>
+          <option value="65" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria bacteriana:">Tuberculos&iacute;s:</option>
+          <option value="65" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria bacteriana:">Salmonelosis:</option>
+          <option value="66" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria bacteriana:">Faring&iacute;tis:</option>
+          <option value="67" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria bacteriana:">Faring&iacute;tis estreptoc&oacute;cica:</option>
+          <option value="68" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria bacteriana:">Mening&iacute;tis bacteriana:</option>
+          <option value="69" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria parasitarias y fung&iacute;tas:">Malaria:</option>
+          <option value="69" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria parasitarias y fung&iacute;tas:">Mal de chagas:</option>
+          <option value="69" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria parasitarias y fung&iacute;tas:">Candidiasis:</option>
+          <option value="69" title="Enfermedad infecciosa causada por virus, bacterias, hongos o par&aacute;sitos de categoria parasitarias y fung&iacute;tas:">Ti&ntilde;a:</option>
+          <option value="69" title="Enfermedades cardiovasculares las cuales son aquellas que afectan el coraz&oacute;n, los vasos sangu&iacute;neos y son aquellas que pueden ser y dar causa a la mayor causa de muertes en el mundo:">hipertensi&oacute;n arterial:</option>
+          <option value="75" title="Enfermedades cardiovasculares las cuales son aquellas que afectan el coraz&oacute;n, los vasos sangu&iacute;neos y son aquellas que pueden ser y dar causa a la mayor causa de muertes en el mundo (Ataque al coraz&oacute;n):">Infarto ag&uacute;do del miocardio:</option>
+          <option value="76" title="Enfermedades cardiovasculares las cuales son aquellas que afectan el coraz&oacute;n, los vasos sangu&iacute;neos y son aquellas que pueden ser y dar causa a la mayor causa de muertes en el mundo:">Insuficiencia cardiaca:</option>
+          <option value="77" title="Enfermedades cardiovasculares las cuales son aquellas que afectan el coraz&oacute;n, los vasos sangu&iacute;neos y son aquellas que pueden ser y dar causa a la mayor causa de muertes en el mundo (ACV / Derrame cerebral):">Accidente cerebrovascular</option>
+          <option value="78" title="Enfermedades cardiovasculares las cuales son aquellas que afectan el coraz&oacute;n, los vasos sangu&iacute;neos y son aquellas que pueden ser y dar causa a la mayor causa de muertes en el mundo:">Arritmias cardiacas:</option>
+          <option value="79" title="Enfermedades respiratorias que afectan los pulmones y las vias a&eacute;reas:">Asma:</option>
+          <option value="80" title="Enfermedades respiratorias que afectan los pulmones y las vias a&eacute;reas (EPOC):">Enfermedad pulmonar obstructiva cr&oacute;nica:</option>
+          <option value="81" title="Enfermedades respiratorias que afectan los pulmones y las vias a&eacute;reas:">Pneumon&iacute;a:</option>
+          <option value="82" title="Enfermedades respiratorias que afectan los pulmones y las vias a&eacute;reas:">Pulmon&iacute;</option>
+          <option value="83" title="Enfermedades respiratorias que afectan los pulmones y las vias a&eacute;reas:">Bronquitis cr&oacute;nica:</option>
+          <option value="84" title="Enfermedades respiratorias que afectan los pulmones y las vias a&eacute;reas:">Fibrosis pulmonar:</option>
+          <option value="85" title="Enfermedades oncol&oacute;gicas (Cancer) que pueden darse por un crecimiento descontrolado de c&eacute;lulas anormales:">Cancer de mama:</option>
+          <option value="86" title="Enfermedades oncol&oacute;gicas (Cancer) que pueden darse por un crecimiento descontrolado de c&eacute;lulas anormales:">Cancer de pulmon:</option>
+          <option value="87" title="Enfermedades oncol&oacute;gicas (Cancer) que pueden darse por un crecimiento descontrolado de c&eacute;lulas anormales:">Cancer pr&oacute;stata:</option>
+          <option value="88" title="Enfermedades oncol&oacute;gicas (Cancer) que pueden darse por un crecimiento descontrolado de c&eacute;lulas anormales:">Cancer colorectal:</option>
+          <option value="89" title="Enfermedades oncol&oacute;gicas (Cancer) que pueden darse por un crecimiento descontrolado de c&eacute;lulas anormales:">Cancer Leucemia y linfomas:</option>
+          <option value="90" title="Enfermedades oncol&oacute;gicas (Cancer) que pueden darse por un crecimiento descontrolado de c&eacute;lulas anormales en este caso el cancer en la sangre y el sistema linf&aacute;tico:">Cancer :</option>
+          <option value="91" title="Enfermedades endocr&iacute;nas y metab&oacute;licas que se dan por trastornos de hormonas y del metabolismo:">Diabetes mellitus:</option>
+          <option value="92" title="Enfermedades endocr&iacute;nas y metab&oacute;licas que se dan por trastornos de hormonas y del metabolismo:">Hipotiroidismo e hipertiroidismo:</option>
+          <option value="93" title="Enfermedades endocr&iacute;nas y metab&oacute;licas que se dan por trastornos de hormonas y del metabolismo como la obesidad que es reconocida como una enfermedad cr&oacute;nica:">Obesidad:</option>
+          <option value="94" title="Enfermedades endocr&iacute;nas y metab&oacute;licas que se dan por trastornos de hormonas y del metabolismo:">Sindrome metab&oacute;lico:</option>
+          <option value="95" title="Enfermedades neurol&oacute;gicas que afectan el cerebro, la m&eacute;dula espinal y los nervios:">Alzheimer:</option>
+          <option value="96" title="Enfermedades neurol&oacute;gicas que afectan el cerebro, la m&eacute;dula espinal y los nervios:">Parkison:</option>
+          <option value="97" title="Enfermedades neurol&oacute;gicas que afectan el cerebro, la m&eacute;dula espinal y los nervios:">Demencias:</option>
+          <option value="98" title="Enfermedades neurol&oacute;gicas que afectan el cerebro, la m&eacute;dula espinal y los nervios:">Epilepsia:</option>
+          <option value="99" title="Enfermedades neurol&oacute;gicas que afectan el cerebro, la m&eacute;dula espinal y los nervios:">Esclerosis m&uacute;ltiple:</option>
+          <option value="100" title="Enfermedades neurol&oacute;gicas que afectan el cerebro, la m&eacute;dula espinal y los nervios:">Migra&ntilde;a:</option>
+          <option value="101" title="Enfermedades neurol&oacute;gicas que afectan el cerebro, la m&eacute;dula espinal y los nervios:">Cefalea cr&oacute;nica:</option>
+          <option value="102" title="Enfermedades aotuinmunes y reumatol&oacute;gicas que se dan cuando el sistema inmunitario ataca por error a las c&eacute;lulas sanas del cuerpo:">Lupus eritematoso sistem&aacute;tico(LES):</option>
+          <option value="103" title="Enfermedades aotuinmunes y reumatol&oacute;gicas que se dan cuando el sistema inmunitario ataca por error a las c&eacute;lulas sanas del cuerpo:">Artritis reumatoide:</option>
+          <option value="104" title="Enfermedades aotuinmunes y reumatol&oacute;gicas que se dan cuando el sistema inmunitario ataca por error a las c&eacute;lulas sanas del cuerpo:">Enfermedad cil&iacute;aca:</option>
+          <option value="105" title="Enfermedades aotuinmunes y reumatol&oacute;gicas que se dan cuando el sistema inmunitario ataca por error a las c&eacute;lulas sanas del cuerpo:">Psoriasis:</option>
+          <option value="106" title="Enfermedades aotuinmunes y reumatol&oacute;gicas que se dan cuando el sistema inmunitario ataca por error a las c&eacute;lulas sanas del cuerpo:">Espondilitis anquilosante:</option>
+          <option value="107" title="Enfermedades digestivas que afectan el trato gastrointestinal, el h&iacute;gado y el p&aacute;ncreas:">Gastr&iacute;tis:</option>
+          <option value="108" title="Enfermedades digestivas que afectan el trato gastrointestinal, el h&iacute;gado y el p&aacute;ncreas:">Ulcera p&eacute;ptica:</option>
+          <option value="109" title="Enfermedades digestivas que afectan el trato gastrointestinal, el h&iacute;gado y el p&aacute;ncreas:">Sindrome del intestino irritable (SII):</option>
+          <option value="110" title="Enfermedades digestivas que afectan el trato gastrointestinal, el h&iacute;gado y el p&aacute;ncreas:">Enfermedad de crohn:</option>
+          <option value="101" title="Enfermedades digestivas que afectan el trato gastrointestinal, el h&iacute;gado y el p&aacute;ncreas:">Colitis ulcerosa:</option>
+          <option value="112" title="Enfermedades digestivas que afectan el trato gastrointestinal, el h&iacute;gado y el p&aacute;ncreas:">Cirrosis:</option>
+          <option value="113" title="Enfermedades digestivas que afectan el trato gastrointestinal, el h&iacute;gado y el p&aacute;ncreas:">Cirrosis hep&aacute;tica:</option>
+          <option value="114" title="Enfermedades digestivas que afectan el trato gastrointestinal, el h&iacute;gado y el p&aacute;ncreas:">H&iacute;gado graso:</option>
+          <option value="115" title="Enfermedades digestivas que afectan el trato gastrointestinal, el h&iacute;gado y el p&aacute;ncreas:">C&aacute;lculos biliares:</option>
+          <option value="116" title="Enfermedades de salud mental y del comportamiento como los trastornos psiqui&aacute;tricos asociados a factores sociales, personales, familiares, de conyugue o de pareja, escolares, laborales, del entorno, complejos de edipo, adicci&oacute;n, trastornos asociados a la economia, la monotonia, apatia, o a sintomatolog&iacute;a de coadicci&oacute;n, adicci&oacute;n, sindrome de abstinencia, maltrato, indiferencia afectiva o carencia afectiva:">Depresi&oacute;n mayor:</option>
+          <option value="117" title="Enfermedades de salud mental y del comportamiento como los trastornos psiqui&aacute;tricos asociados a factores sociales, personales, familiares, de conyugue o de pareja, escolares, laborales, del entorno, complejos de edipo, adicci&oacute;n, trastornos asociados a la economia, la monotonia, apatia, o a sintomatolog&iacute;a de coadicci&oacute;n, adicci&oacute;n, sindrome de abstinencia, maltrato, indiferencia afectiva o carencia afectiva:">Trastorno de ansiedad genralizada:</option>
+          <option value="118" title="Enfermedades de salud mental y del comportamiento como los trastornos psiqui&aacute;tricos asociados a factores sociales, personales, familiares, de conyugue o de pareja, escolares, laborales, del entorno, complejos de edipo, adicci&oacute;n, trastornos asociados a la economia, la monotonia, apatia, o a sintomatolog&iacute;a de coadicci&oacute;n, adicci&oacute;n, sindrome de abstinencia, maltrato, indiferencia afectiva o carencia afectiva:">Trastorno bipolar:</option>
+          <option value="119" title="Enfermedades de salud mental y del comportamiento como los trastornos psiqui&aacute;tricos asociados a factores sociales, personales, familiares, de conyugue o de pareja, escolares, laborales, del entorno, complejos de edipo, adicci&oacute;n, trastornos asociados a la economia, la monotonia, apatia, o a sintomatolog&iacute;a de coadicci&oacute;n, adicci&oacute;n, sindrome de abstinencia, maltrato, indiferencia afectiva o carencia afectiva:">Ezquizofrenia:</option>
+          <option value="120" title="Enfermedades de salud mental y del comportamiento como los trastornos psiqui&aacute;tricos asociados a factores sociales, personales, familiares, de conyugue o de pareja, escolares, laborales, del entorno, complejos de edipo, adicci&oacute;n, trastornos asociados a la economia, la monotonia, apatia, o a sintomatolog&iacute;a de coadicci&oacute;n, adicci&oacute;n, sindrome de abstinencia, maltrato, indiferencia afectiva o carencia afectiva:">Anor&eacute;xia:</option>
+          <option value="121" title="Enfermedades de salud mental y del comportamiento como los trastornos psiqui&aacute;tricos asociados a factores sociales, personales, familiares, de conyugue o de pareja, escolares, laborales, del entorno, complejos de edipo, adicci&oacute;n, trastornos asociados a la economia, la monotonia, apatia, o a sintomatolog&iacute;a de coadicci&oacute;n, adicci&oacute;n, sindrome de abstinencia, maltrato, indiferencia afectiva o carencia afectiva:">Bulimia:</option>
+          <option value="122" title="Enfermedades raras o hu&eacute;rfanas que afectan un porcentaje muy bajo de la poblaci&oacute;n pero que de ellas se puede decir que pueden ser miles:">Fibrosis qu&iacute;stica:</option>
+          <option value="123" title="Enfermedades raras o hu&eacute;rfanas que afectan un porcentaje muy bajo de la poblaci&oacute;n pero que de ellas se puede decir que pueden ser miles:">Escleros&iacute;s lateral amiotr&oacute;fica(ELA):</option>
+          <option value="124" title="Enfermedades raras o hu&eacute;rfanas que afectan un porcentaje muy bajo de la poblaci&oacute;n pero que de ellas se puede decir que pueden ser miles:">Enfermedad de hungtinton:</option>
+          <option value="125" title="Enfermedades raras o hu&eacute;rfanas que afectan un porcentaje muy bajo de la poblaci&oacute;n pero que de ellas se puede decir que pueden ser miles:">Distrofia muscular de duchenne:</option>
+          <option value="126" title=""></option>
+          <option value="127"></option>
+          <option value="128"></option>
+          <option value="129"></option>
+          <option value="130"></option>
+          <option value="131"></option>
+          <option value="132"></option>
+          <option value="133"></option>
+          <option value="134"></option>
+          <option value="135"></option>
+          <option value="136"></option>
+          <option value="137"></option>
+          <option value="138"></option>
+          <option value="139"></option>
+          <option value="140"></option>
+          <option value="141"></option>
+          <option value="142"></option>
+          <option value="143"></option>
+          <option value="144"></option>
+          <option value="145"></option>
+          <option value="146"></option>
+          <option value="147"></option>
+          <option value="148"></option>
+          <option value="149"></option>
+          <option value="150"></option>
+          <option value="151"></option>
+          <option value="152"></option>
+          <option value="153"></option>
+          <option value="154"></option>
+          <option value="155"></option>
+          <option value="156"></option>
+          <option value="157"></option>
+          <option value="158"></option>
+          <option value="159"></option>
+          <option value="160"></option>
+          <option value="161"></option>
+          <option value="162"></option>
+          <option value="163"></option>
+          <option value="164"></option>
+          <option value="165"></option>
+          <option value="166"></option>
+          <option value="167"></option>
+          <option value="168"></option>
+          <option value="169"></option>
+          <option value="170"></option>
+          <option value="171"></option>
+          <option value="172"></option>
+          <option value="173"></option>
+          <option value="174"></option>
+          <option value="175"></option>
+          <option value="176"></option>
+          <option value="177"></option>
+          <option value="178"></option>
+          <option value="179"></option>
+          <option value="180"></option>
+          <option value="181"></option>
+          <option value="182"></option>
+          <option value="183"></option>
+          <option value="184"></option>
+          <option value="185"></option>
+          <option value="186"></option>
+          <option value="187"></option>
+          <option value="188"></option>
+          <option value="189"></option>
+          <option value="190"></option>
+          <option value="191"></option>
+          <option value="192"></option>
+          <option value="193"></option>
+          <option value="194"></option>
+          <option value="195"></option>
+          <option value="196"></option>
+          <option value="197"></option>
+          <option value="198"></option>
+          <option value="199"></option>
+      </select>
+
+      <select name="Medicamentos." title="Selector de medicamentos:" onchange="selmed()">
+          <option value="200">Medicamentos:</option>
+          <option value="201" title="Analg&eacute;sicos y antiinflamatorios: El parasetamol o acetaminof&eacute;n es un analg&ecute;sico antipir&eacute;tico usado para dolores leves o moderados, fiebre, dolores de cabeza, dolores musculares y dentales.">Paracetamol (Acetaminof&eacute;n):</option>
+          <option value="202" title="Analg&eacute;sicos y antiinflamatorios: El ibuprofeno es un AINE (Antiinflamatorio no esteroideo) usado para dolor inflamatorio, fiebre, artritis, disminorrea, migrañas.">Ibuprofeno:</option>
+          <option value="203" title="Analg&eacute;sicos y antiinflamatorios: El naproxeno AINE(Antiinflamatorio no esteroideo) es usado en dolores cr&oacute;nicos, artritis, gota, dolores menstruales intensos.">Naproxeno:</option>
+          <option value="204" title="Analg&eacute;sicos y antiinflamatorios: El diclofenaco AINE(Antiinflamatorio no esteroideo), Es usado para dolores posoperatorios, artritis, esguinces, inflamaciones agudas.">Diclofenaco:</option>
+          <option value="205" title="Analg&eacute;sicos y antiinflamatorios: La aspirina o &aacute;cido acetilsalic&iacute;lico es una analg&eacute;sico, antipir&eacute;tico, antiagregante plaquetario el cual actua en dolor, fiebre, prevenci&oacute;n de infarto, prevenci&oacute;n de ACV.">Aspirina:</option>
+          <option value="206" title="Antibi&oacute;ticos: es un antibi&ocute;tico betalact&aaacute;mico para infecciones respiratorios, otitis, faringitis, infecciones de piel.">Amoxicilina:</option>
+          <option value="207" title="Antibi&oacute;ticos: Es un antibi&oacute;tico macr&oacute;lido usado para tratar la bronquitis, neumonia, infecciones de garganta, enfermedades de transmisi&oacute;n sexual.">Azitromicina:</option>
+          <option value="208" title="Antibi&oacute;ticos: Es un antibi&oacute;tico fluoroquinolona usado para infecciones urinarias, diarrea bacteriana, infeccines sist&eacute;micas graves.">Ciprofloxacino:</option>
+          <option value="209" title="Antibi&oacute;ticos: Es un antiprotozoario y antibacteriano usado apra tratar infecciones por anaerobios, giardiasis, amebiasis, infecciones dentales.">Metronidazol:</option>
+          <option value="210" title="Antibi&oacute;ticos: Es un antibi&oacute;tico tetraciclina usado para tratar infecciones respiratorias, acne, malaria, profilaxis, enfermedad de lyme.">Doxiciclina:</option>
+          <option value="211" title="Antihistam&iacute;nicos: Es un antihistam&iacute;nico de segunda generaci&oacute;n usado para alergia estacional, rinitis, urticaria y picaz&oacute;n.">Loratadina:</option>
+          <option value="212" title="Antihistam&iacute;nicos: Es un antihistam&iacute;nico de segunda generaci&oacute;n usado para tratar alergias, rinitis al&eacute;gica, conjuntivitis al&eacute;rgica.">Cetirizina:</option>
+          <option value="213" title="Antihistam&iacute;nicos Es un antihistam&iacute;nico de primera generaci&oacute;n usado para tratar alergias agudas, insomnio ocasional, maro por movimiento">Difenhidramina:</option>
+          <option value="214" title="Antihipertensivos y cardiovasculares: Es un antagonista del receptor de angiotensina II (ARA II) usado para tratar la hipertensi&oacute;n, protecci&oacute;n renal en diab&eacute;ticos, insuficiencia card&iacute;aca.">Losart&aacute;n</option>
+          <option value="215" title="Antihipertensivos y cardiovasculares: Es un inhibidor de la ECA usado para tratar hipertenci&oacute;n, insuficiencia card&iacute;aca y post-infarto.">Enalapril:</option>
+          <option value="216" title="Antihipertensivos y cardiovasculares: Es un bloqueador de canales de calcio usado para tratar hipertensi&oacute;n, arritmias, angina, insuficiencia card&iacute;aca.">Amlodipino:</option>
+          <option value="217" title="Antihipertensivos y cardiovasculares: Es un betabloqueante usado para tratar la hipertensi&oacute;n, arritmias, angina, insuficiencia card&iacute;aca.">Metoprolol:</option>
+          <option value="218" title="Antihipertensivos y cardiovasculares: Es un diur&eacute;tico tiaz&iacute;dico usado para tratar la hipertensi&oacute;n, efema, infuficiencia card&iacute;aca.">Hidroclorotiazida:</option>
+          <option value="219"></option>
+          <option value="220"></option>
+          <option value="221"></option>
+          <option value="222"></option>
+          <option value="223"></option>
+          <option value="224"></option>
+          <option value="225"></option>
+          <option value="226"></option>
+          <option value="227"></option>
+          <option value="228"></option>
+          <option value="229"></option>
+          <option value="230"></option>
+          <option value="231"></option>
+          <option value="232"></option>
+          <option value="233"></option>
+          <option value="234"></option>
+          <option value="235"></option>
+          <option value="236"></option>
+          <option value="237"></option>
+          <option value="238"></option>
+          <option value="239"></option>
+          <option value="240"></option>
+          <option value="241"></option>
+          <option value="242"></option>
+          <option value="243"></option>
+          <option value="244"></option>
+          <option value="245"></option>
+          <option value="246"></option>
+          <option value="247"></option>
+          <option value="248"></option>
+          <option value="249"></option>
+          <option value="250"></option>
+          <option value="251"></option>
+          <option value="252"></option>
+          <option value="253"></option>
+          <option value="254"></option>
+          <option value="255"></option>
+          <option value="256"></option>
+          <option value="257"></option>
+          <option value="258"></option>
+          <option value="259"></option>
+          <option value="260"></option>
+          <option value="261"></option>
+          <option value="262"></option>
+          <option value="263"></option>
+          <option value="264"></option>
+          <option value="265"></option>
+          <option value="266"></option>
+          <option value="267"></option>
+          <option value="268"></option>
+          <option value="269"></option>
+          <option value="270"></option>
+          <option value="271"></option>
+          <option value="272"></option>
+          <option value="273"></option>
+          <option value="274"></option>
+          <option value="275"></option>
+          <option value="276"></option>
+          <option value="277"></option>
+          <option value="278"></option>
+          <option value="279"></option>
+          <option value="280"></option>
+          <option value="281"></option>
+          <option value="282"></option>
+          <option value="283"></option>
+          <option value="284"></option>
+          <option value="285"></option>
+          <option value="286"></option>
+          <option value="287"></option>
+          <option value="288"></option>
+          <option value="289"></option>
+          <option value="290"></option>
+          <option value="291"></option>
+          <option value="292"></option>
+          <option value="293"></option>
+          <option value="294"></option>
+          <option value="295"></option>
+          <option value="296"></option>
+          <option value="297"></option>
+          <option value="298"></option>
+          <option value="299"></option>
+          <option value="300"></option>
+          <option value="301"></option>
+          <option value="302"></option>
+          <option value="303"></option>
+          <option value="304"></option>
+          <option value="305"></option>
+          <option value="306"></option>
+          <option value="307"></option>
+          <option value="308"></option>
+          <option value="309"></option>
+          <option value="310"></option>
+          <option value="311"></option>
+          <option value="312"></option>
+          <option value="313"></option>
+          <option value="314"></option>
+          <option value="315"></option>
+          <option value="316"></option>
+          <option value="317"></option>
+          <option value="318"></option>
+          <option value="319"></option>
+          <option value="320"></option>
+          <option value="321"></option>
+          <option value="322"></option>
+          <option value="323"></option>
+          <option value="324"></option>
+          <option value="325"></option>
+          <option value="326"></option>
+          <option value="327"></option>
+          <option value="328"></option>
+          <option value="329"></option>
+          <option value="330"></option>
+          <option value="331"></option>
+          <option value="332"></option>
+          <option value="333"></option>
+          <option value="334"></option>
+          <option value="335"></option>
+          <option value="336"></option>
+          <option value="337"></option>
+          <option value="338"></option>
+          <option value="339"></option>
+          <option value="340"></option>
+          <option value="341"></option>
+          <option value="342"></option>
+          <option value="343"></option>
+          <option value="344"></option>
+          <option value="345"></option>
+          <option value="346"></option>
+          <option value="347"></option>
+          <option value="348"></option>
+          <option value="349"></option>
+          <option value="350"></option>
+          <option value="351"></option>
+          <option value="352"></option>
+          <option value="353"></option>
+          <option value="354"></option>
+          <option value="355"></option>
+          <option value="356"></option>
+          <option value="357"></option>
+          <option value="358"></option>
+          <option value="359"></option>
+          <option value="360"></option>
+          <option value="361"></option>
+          <option value="362"></option>
+          <option value="363"></option>
+          <option value="364"></option>
+          <option value="365"></option>
+          <option value="366"></option>
+          <option value="367"></option>
+          <option value="368"></option>
+          <option value="369"></option>
+          <option value="370"></option>
+          <option value="371"></option>
+          <option value="372"></option>
+          <option value="373"></option>
+          <option value="374"></option>
+          <option value="375"></option>
+          <option value="376"></option>
+          <option value="377"></option>
+          <option value="378"></option>
+          <option value="379"></option>
+          <option value="380"></option>
+          <option value="381"></option>
+          <option value="382"></option>
+          <option value="383"></option>
+          <option value="384"></option>
+          <option value="385"></option>
+          <option value="386"></option>
+          <option value="387"></option>
+          <option value="388"></option>
+          <option value="389"></option>
+          <option value="390"></option>
+          <option value="391"></option>
+          <option value="392"></option>
+          <option value="393"></option>
+          <option value="394"></option>
+          <option value="395"></option>
+          <option value="396"></option>
+          <option value="397"></option>
+          <option value="398"></option>
+          <option value="399"></option>
+          <option value="400"></option>
+          <option value="401"></option>
+          <option value="402"></option>
+          <option value="403"></option>
+          <option value="404"></option>
+          <option value="405"></option>
+          <option value="406"></option>
+          <option value="407"></option>
+          <option value="408"></option>
+          <option value="409"></option>
+          <option value="410"></option>
+          <option value="411"></option>
+          <option value="412"></option>
+          <option value="413"></option>
+          <option value="414"></option>
+          <option value="415"></option>
+          <option value="416"></option>
+          <option value="417"></option>
+          <option value="418"></option>
+          <option value="419"></option>
+          <option value="420"></option>
+          <option value="421"></option>
+          <option value="422"></option>
+          <option value="423"></option>
+          <option value="424"></option>
+          <option value="425"></option>
+          <option value="426"></option>
+          <option value="427"></option>
+          <option value="428"></option>
+          <option value="429"></option>
+          <option value="430"></option>
+          <option value="431"></option>
+          <option value="432"></option>
+          <option value="433"></option>
+          <option value="434"></option>
+          <option value="435"></option>
+          <option value="436"></option>
+          <option value="437"></option>
+          <option value="438"></option>
+          <option value="439"></option>
+          <option value="440"></option>
+          <option value="441"></option>
+          <option value="442"></option>
+          <option value="443"></option>
+          <option value="444"></option>
+          <option value="445"></option>
+          <option value="446"></option>
+          <option value="447"></option>
+          <option value="448"></option>
+          <option value="449"></option>
+          <option value="450"></option>
+          <option value="451"></option>
+          <option value="452"></option>
+          <option value="453"></option>
+          <option value="454"></option>
+          <option value="455"></option>
+          <option value="456"></option>
+          <option value="457"></option>
+          <option value="458"></option>
+          <option value="459"></option>
+          <option value="460"></option>
+          <option value="461"></option>
+          <option value="462"></option>
+          <option value="463"></option>
+          <option value="464"></option>
+          <option value="465"></option>
+          <option value="466"></option>
+          <option value="467"></option>
+          <option value="468"></option>
+          <option value="469"></option>
+          <option value="470"></option>
+          <option value="471"></option>
+          <option value="472"></option>
+          <option value="473"></option>
+          <option value="474"></option>
+          <option value="475"></option>
+          <option value="476"></option>
+          <option value="477"></option>
+          <option value="478"></option>
+          <option value="479"></option>
+          <option value="480"></option>
+          <option value="481"></option>
+          <option value="482"></option>
+          <option value="483"></option>
+          <option value="484"></option>
+          <option value="485"></option>
+          <option value="486"></option>
+          <option value="487"></option>
+          <option value="488"></option>
+          <option value="489"></option>
+          <option value="490"></option>
+          <option value="491"></option>
+          <option value="492"></option>
+          <option value="493"></option>
+          <option value="494"></option>
+          <option value="495"></option>
+          <option value="496"></option>
+          <option value="497"></option>
+          <option value="498"></option>
+          <option value="499"></option>
+      </select>
+      <br>
+      <select name="Especialidades m&eacute;dicas." title="Selector de especialidades m&eacute;dicas:" onchange="selesm()">
+          <option value="500">Especialidades m&eacute;dicas:</option>
+          <option value="501" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Alergolog&iacute;a e inmunolog&iacute;a cl&iacute;nica:</option>
+          <option value="502" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Cardiolog&iacute;a:</option>
+          <option value="503" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Endocrinolog&iacute;a y nutrici&oacute;n:</option>
+          <option value="504" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Estomatolog&iacute;a / Medicina oral:</option>
+          <option value="505" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Gastroenterolog&iacute;a / Aparato digestivo:</option>
+          <option value="506" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Gen&eacute;tica / Medicina:</option>
+          <option value="507" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Geriatr&iacute;a:</option>
+          <option value="508" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Hematolog&iacute;a y hemoterapia:</option>
+          <option value="509" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Infectolog&iacute;a / Enfermedades infecciosas:</option>
+          <option value="510" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Medicina del trabajo / Laboral:</option>
+          <option value="511" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Medicina del deporte:</option>
+          <option value="512" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Medicina laboral y comunitaria:</option>
+          <option value="513" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Medicina f&iacutE;sica y rehabilitaci&oacute;n / Fisiatr&iacute;a:</option>
+          <option value="514" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Medicina intensiva / cuidado cr&iacute;tico:</option>
+          <option value="515" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Medicina interna:</option>
+          <option value="516" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Medicina legal y forense:</option>
+          <option value="517" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Medicina nuclear:</option>
+          <option value="518" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Medicina preventiva y salud p&uacute;blica:</option>
+          <option value="519" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Nefrolog&iacute;a:</option>
+          <option value="520" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Neumolog&iacute;a / Neumonolog&iacute;a:</option>
+          <option value="521" >Neurolog&iacute;a:</option>
+          <option value="522" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">&Oacute;ncoloia m&eacute;dica:</option>
+          <option value="523" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">&Oacute;ncoloia Radioter&aacute;pica: / Radioterapia:</option>
+          <option value="524" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Pediatr&iacute;a:</option>
+          <option value="525" title="Contiene algunas especialidades como Neonatolog&iacute;a:">Pediatr&iacute;a:</option>
+          <option value="526" title="Psiquiatria infantil como una de sus especialidades.">Psiquiatr&iacute;a:</option>
+          <option value="527" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Reumatolog&iacute;a:</option>
+          <option value="528" title="Las especilidades cl&iacute;nicas se centran en el diagn&oacute;stico y tratamiento no quirurgico de las enfermedades utilziando farmacos y terapias.">Toxicolog&iacute;a:</option>
+          <option value="529" title="Las especialidades quir&uacute;rgicas se especializan en la intervenci&oacute;n operativa e invasiva para tratar patolog&ioacute;as o traumas.">Cirug&iacute;a general y del aparato digestivo:</option>
+          <option value="530" title="Las especialidades quir&uacute;rgicas se especializan en la intervenci&oacute;n operativa e invasiva para tratar patolog&ioacute;as o traumas.">Cirug&iacute;a cardiovascular:</option>
+          <option value="531" title="Las especialidades quir&uacute;rgicas se especializan en la intervenci&oacute;n operativa e invasiva para tratar patolog&ioacute;as o traumas.">Cirug&iacute;a oral y maxilofacial:</option>
+          <option value="532" title="Las especialidades quir&uacute;rgicas se especializan en la intervenci&oacute;n operativa e invasiva para tratar patolog&ioacute;as o traumas.">Cirug&iacute; ortop&eacute;dica y traumatolog&iacute;a:</option>
+          <option value="533" title="Las especialidades quir&uacute;rgicas se especializan en la intervenci&oacute;n operativa e invasiva para tratar patolog&ioacute;as o traumas.">Cirug&iacute;a pedi&aacute;trica:</option>
+          <option value="534" title="Las especialidades quir&uacute;rgicas se especializan en la intervenci&oacute;n operativa e invasiva para tratar patolog&ioacute;as o traumas.">Cirug&iacute;a p&aacute;stica, est&eacute;tica y reconstructiva:</option>
+          <option value="535" title="Las especialidades quir&uacute;rgicas se especializan en la intervenci&oacute;n operativa e invasiva para tratar patolog&ioacute;as o traumas.">Cirug&iacute;a tor&aacute;cica:</option>
+          <option value="536" title="Las especialidades quir&uacute;rgicas se especializan en la intervenci&oacute;n operativa e invasiva para tratar patolog&ioacute;as o traumas.">cirug&iacute;a vascular / Angiolog&iacute;a y cirug&iacute;a vascular:</option>
+          <option value="537" title="Las especialidades quir&uacute;rgicas se especializan en la intervenci&oacute;n operativa e invasiva para tratar patolog&ioacute;as o traumas.">Neurocirug&iacute;a:</option>
+          <option value="538" title="Las especialidades m&eacute;dico-Quirurgicas consultan un alto volumen de consulta cl&iacute;nica con procedimientos quir&uacute;rgicos espec&iacute;ficos.">Dermatolog&iacute;a y venereolog&iacute;a:</option>
+          <option value="539" title="Las especialidades m&eacute;dico-Quirurgicas consultan un alto volumen de consulta cl&iacute;nica con procedimientos quir&uacute;rgicos espec&iacute;ficos.">Ginecolog&iacute;a y obstetricia:</option>
+          <option value="540" title="Las especialidades m&eacute;dico-Quirurgicas consultan un alto volumen de consulta cl&iacute;nica con procedimientos quir&uacute;rgicos espec&iacute;ficos.">Oftalmolog&iacute;a:</option>
+          <option value="541" title="Las especialidades m&eacute;dico-Quirurgicas consultan un alto volumen de consulta cl&iacute;nica con procedimientos quir&uacute;rgicos espec&iacute;ficos.">Otorrinolaringolog&iacute;a:</option>
+          <option value="542" title="Las especialidades m&eacute;dico-Quirurgicas consultan un alto volumen de consulta cl&iacute;nica con procedimientos quir&uacute;rgicos espec&iacute;ficos.">Urolog&iacute;a:</option>
+          <option value="543" title="Las especialidades de apoyo diagn&oacute;stico son fundamentales para el an&aacute;lisis cl&iacute;nico, interpretaci&oacute;n de im&aacute;genes o soporte a otras &aacute;reas:">Antom&iacute;a patol&oacute;gica / Patolog&iacute;a:</option>
+          <option value="544" title="Las especialidades de apoyo diagn&oacute;stico son fundamentales para el an&aacute;lisis cl&iacute;nico, interpretaci&oacute;n de im&aacute;genes o soporte a otras &aacute;reas:">Anestesiolog&iacute;a, Reanimaci&oacute;n y Terap&eacute;utica del Dolor:</option>
+          <option value="545" title="Las especialidades de apoyo diagn&oacute;stico son fundamentales para el an&aacute;lisis cl&iacute;nico, interpretaci&oacute;n de im&aacute;genes o soporte a otras &aacute;reas:">Bioqu&iacute;mica Cl&iacute;nica:</option>
+          <option value="546" title="Las especialidades de apoyo diagn&oacute;stico son fundamentales para el an&aacute;lisis cl&iacute;nico, interpretaci&oacute;n de im&aacute;genes o soporte a otras &aacute;reas:">Farmacolog&iacute;a Cl&iacute;nica:</option>
+          <option value="547" title="Las especialidades de apoyo diagn&oacute;stico son fundamentales para el an&aacute;lisis cl&iacute;nico, interpretaci&oacute;n de im&aacute;genes o soporte a otras &aacute;reas:">Inmunolog&iacute;a Diagnosticadora:</option>
+          <option value="548" title="Las especialidades de apoyo diagn&oacute;stico son fundamentales para el an&aacute;lisis cl&iacute;nico, interpretaci&oacute;n de im&aacute;genes o soporte a otras &aacute;reas:">Microbiolog&iacute;a y Parasitolog&iacute;a:</option>
+
+          
+          <option value="549" title="Las especialidades de apoyo diagn&oacute;stico son fundamentales para el an&aacute;lisis cl&iacute;nico, interpretaci&oacute;n de im&aacute;genes o soporte a otras &aacute;reas:">Medicina de Urgencias y Emergencias:</option>
+          <option value="550" title="Las especialidades de apoyo diagn&oacute;stico son fundamentales para el an&aacute;lisis cl&iacute;nico, interpretaci&oacute;n de im&aacute;genes o soporte a otras &aacute;reas:">Radiodiagn&oacute;stico / Radiolog&iacute;a e Imagenolog&iacute;a:</option>
+          <option value="551"></option>
+          <option value="552"></option>
+          <option value="553"></option>
+          <option value="554"></option>
+          <option value="555"></option>
+          <option value="556"></option>
+          <option value="557"></option>
+          <option value="558"></option>
+          <option value="559"></option>
+          <option value="560"></option>
+          <option value="561"></option>
+          <option value="562"></option>
+          <option value="563"></option>
+          <option value="564"></option>
+          <option value="565"></option>
+          <option value="566"></option>
+          <option value="567"></option>
+          <option value="568"></option>
+          <option value="569"></option>
+          <option value="570"></option>
+          <option value="571"></option>
+          <option value="572"></option>
+          <option value="573"></option>
+          <option value="574"></option>
+          <option value="575"></option>
+          <option value="576"></option>
+          <option value="577"></option>
+          <option value="578"></option>
+          <option value="579"></option>
+          <option value="580"></option>
+          <option value="581"></option>
+          <option value="582"></option>
+          <option value="583"></option>
+          <option value="584"></option>
+          <option value="585"></option>
+          <option value="586"></option>
+          <option value="587"></option>
+          <option value="588"></option>
+          <option value="589"></option>
+          <option value="590"></option>
+          <option value="591"></option>
+          <option value="592"></option>
+          <option value="593"></option>
+          <option value="594"></option>
+          <option value="595"></option>
+          <option value="596"></option>
+          <option value="597"></option>
+          <option value="598"></option>
+          <option value="599"></option>
+      </select>
+      <select name="Hospitales:" id="selhos" title="Selector de una lista de hospitales con el fin de lograr ponerse en contacto con la unidade médica hospitalaria, solicitar un servicio, lograr sacar una cita o solicitar alguna información." onchange="selhos()">
+          <option value="600" title="En esta lista desplegable podras encontrar una lista de hospitales en la ciudad de medell&iacute;n que prestan el servicio de atenci&oacute;n m&eacute;dica hospitalaria en la ciudad de medell&iacute;n.">Hospitales:</option>
+          <option value="601" title="Hospital de alta complejidad de tipo privado / universitario el cu&aacute;l es una instituci&oacute;n de gran tradici&oacute;n, referente de transplantes y alta complejidad. Se encuentra ubicado en la calle 64 # 51d - 154 en el sector de barranquilla:">Hospital san vicente fundaci&oacute;n:</option>
+          <option value="602" title="Hospital de alta complejidad privado sin &aacute;nimo de lucro destacado por su alta tegnolog&iacute;a, excelencia m&eacute;dica y seguridad del pasciente. Se encuentra ubicado en la calle 78b # 69 - 240 en el sector de pajarito en robledo:">Hospital Pablo tobon uribe:</option>
+          <option value="603" title="Hospital de tipo privado con fuerte enfoque cardiovascular, urgencias y alta complejidad ubicado en la diagonal 75 # 2a - 80/140 en el barrio Belen:">La cl&iacute;nica las am&eacute;ricas (Auna):</option>
+          <option value="604" title="Hospital de tipo privado / universitario surgido para mantener la antigua tradici&oacute;n del antiguo hospital universitario san vicente de pa&uacute;l en su sede moderna ubicado en la calle 67 # 53 - 108 en la zona universitaria:">Hospital almamater de antioquia:</option>
+          <option value="605" title="Cl&iacute;nica privada especializada en servicios m&eacute;dicos y quir&uacute;rgicos avanzados con sedes en el poblado y nuevo occidente (Calle 65b):">Cl&iacute;nica medell&iacute;n:</option>
+          <option value="606" title="Cl&iacute;nica de tipo privada reconocida por su atenci&oacute;n integral, maternidad y servicios quir&uacute;rgicos ubicada en la calle 2 Sur # 46 - 55 en el poblado.">Cl&iacute;nica las vegas:</option>
+          <option value="607" title="Cl&iacute;nica de tipo privada / universitaria la cu&aacute;l ofrece servicios integrales con alta calidad humana y cient&iacute;fica ubicada en la circular 1 # 70 - 01 en el sector de laureles.">Cl&iacute;nica universitaria bolivariana:</option>
+          <option value="608" title="Empresa social del estado (ESE) hospital p&uacute;blico de la red p&uacute;blica que ofrece servicios generales y de alta complejidad ubicado en la carrera 48 # 32 - 102 cerca al sector industriales:">Hospital general de medell&iacute;n (Luz castro de guti&eacute;rrez)</option>
+          <option value="609" title="Red de metrosalud es una red publica de centros de salud y unidades hospitalarias de primer y segundo nivel de complejidad distribuidas en las diferentes comunas de medell&iacute;n, entre ellas, santa cruz, belen, las palmas, salvador, pablo escobar, el poblado, buenos a&iacute;res, san javier, castilla, doce de octubre, etc. encargadas de atenci&oacute;n primaria y urgencias b&aacute;sicas:">Metrosalud</option>
+          <option value="610" title="La cl&iacute};nica sagrado coraz&oacute;n de jesus la cu&aacute;l se encuentra ubicada en el barrio buenos aires en la ciudad de medell&iacute;n colombia en la calle 49 # 35 - 61 y tiene un sede de consulta externa en la carrera 36# 48 - 39 en el mismo barrio. El n&uacute;mero de contacto es 604-215-10-00 o puedes escribir al correo atencionusuario@clinicasagradocorazon.com.co ; Los servicios principales que presta son de urgencias, emergencias m&eacute;dicas, hospitalizaci&oacute;n e internaci&oacute;n, consulta externa especializada, servicios de diagn&oacute;stico y laboratorio cl&iacute;nico."></option>
+          <option value="611" title="Es el centro asistencial p&uacute;blico de la red hospitalaria de la ciudad (Empresa social del estado ESE Metrosalud) la cu&aacute;l ofrece atenci&oacute;n en urgencias y servicios m&eacute;dicos comunitarios; Se encuentra ubicada en la carrera 32 # 49-62 en el barrio buenos aires, medell&iacute;n colombia y puedes llamar al 604-511-75-05 etx. 4400 en la cu&aacute;l se presta un servicio de urgencias las 24 horas del d&iacute;. sus servicios principales son urgencias, servicio farmace&uacute;tico, laboratorio cl&iacute;nico, im&aacute;genes di&aacute;gnosticas no ionizantes, consulta externa (psicolog&iacute;a, nutrici&oacute;n, ginecobstetricia, fisioterapia) y los programas de prevenci&oacute;n y promoci&oacute;n [PyP].">Unidad hospitalaria Buenos aires (Metrosalud):</option>
+          <option value="612" title="El centro m&eacute;dico buenos aires con sede en la zona centro es una instituci&oacute;n privada y enfocada en forma primordial en la realizaci&oacute;n de ex&aacute;menes de diagn&oacute;stico, laboratorio y consultas m&eacute;dicas especializadas. Se encuentra ubicado en la calle 49# 33-23 en buenos aires, medellin colombia. Puedes llamar al 604-444-13-70 opc. 1 o al p bx 604-217-39-38 o 604-217-13-70. El celular es el 305-248-30-56 y los servicios principales qeu presta son consulta m&eacute;dica general y especializada, atenci&oacute;n en alrrededor de 15 especialidades como cardiolog&iacute;a, gastroenterolog&iacute;a y ortopedia. Laboratorio cl&iacute;nico, ayudas si&aacute;gnosticas avanzadas como tomograf&iacute;a, radiolog&iacute;a, mamograf&iacute;a, ecograf&iacute;as y ecografia doppler.">Centro m&eacute;dico buenos aires:</option>
+          <option value="612" title="La cl&iacute;nica SOMER es una prestigiosa instituci&oacute;n de salud de alta complejidad ubicada en el municipio de rionegro antioquia en el oriente antioque&ntilde;o siendo as&iacute; un referente m&eacute;dico muy importante para toda la regi&oacute;n donde se atienden servicios de urgencias, unidades de cuidado intensivo (UCI), adultos, pediatria y neonatal. Transplante de &oacute;rganos abdominales, m&eacute;dula &oacute;sea. La SOMER cuenta con unidades especializadas en cardiolog&iacute;a, neurolog&iacute;a, oncolog&iacute;a, unidad funcional del cancer materno infantil, ortopedia, etc. Tambien cuenta con un laboratorio cl&iacute;nico e imaginolog&iacute;a de alta complejidad. Puedes contactar con la SOMER al conmutador / PBX 604-605-26-26, a la central de citas 604-444-83-62. La l&iacute;nea para medicina prepagada, p&oacute;lizas y particulares 604-322-91-61 y su sitio web oficial clincasomer.com . Tambien puedes ir personalmente a sus sedes: Principal con alta complejidad en atenci&oacute;n en urgencias en la calle 38# 54a - 35 rionegro ant., Calle 52# 45-70 en rionegro plaza en los pisos 2, 3, 4 y 5. La sede ambulatoria, en la calle 47# 76-3 en el mall reserva plaza(rionegro antioquia). La sede del centro comercial jardines en llanogrande via don diego km 8(Rionegro antioquia) y la sede city m&eacute;dica en la carrera 55a# 35-227 piso 4 (Rionegro antioaquia).">Cl&iacute;nica SOMER:</option>
+          <option value="613" title="Hospital de alta complejidad:"></option>
+          <option value="614" title="Hospital de alta complejidad:"></option>
+          <option value="615" title="Hospital de alta complejidad:"></option>
+          <option value="616" title=""></option>
+          <option value="617" title=""></option>
+          <option value="618" title=""></option>
+          <option value="619" title=""></option>
+          <option value="620" title=""></option>
+          <option value="621" title=""></option>
+          <option value="622" title=""></option>
+          <option value="623" title=""></option>
+          <option value="624" title=""></option>
+          <option value="625" title=""></option>
+          <option value="626" title=""></option>
+          <option value="627" title=""></option>
+          <option value="628" title=""></option>
+          <option value="629" title=""></option>
+          <option value="630" title=""></option>
+          <option value="631" title=""></option>
+          <option value="632" title=""></option>
+          <option value="633" title=""></option>
+          <option value="634" title=""></option>
+          <option value="635" title=""></option>
+          <option value="636" title=""></option>
+          <option value="637" title=""></option>
+          <option value="638" title=""></option>
+          <option value="639" title=""></option>
+          <option value="640" title=""></option>
+          <option value="641" title=""></option>
+          <option value="642" title=""></option>
+          <option value="643" title=""></option>
+          <option value="644" title=""></option>
+          <option value="645" title=""></option>
+          <option value="646" title=""></option>
+          <option value="647" title=""></option>
+          <option value="648" title=""></option>
+          <option value="649" title=""></option>
+          <option value="650" title=""></option>
+          <option value="651" title=""></option>
+          <option value="652" title=""></option>
+          <option value="652" title=""></option>
+          <option value="652" title=""></option>
+          <option value="653" title=""></option>
+          <option value="654" title=""></option>
+          <option value="655" title=""></option>
+          <option value="656" title=""></option>
+          <option value="657" title=""></option>
+          <option value="658" title=""></option>
+          <option value="659" title=""></option>
+          <option value="660" title=""></option>
+          <option value="661" title=""></option>
+          <option value="662" title=""></option>
+          <option value="663" title=""></option>
+          <option value="664" title=""></option>
+          <option value="665" title=""></option>
+          <option value="666" title=""></option>
+          <option value="667" title=""></option>
+          <option value="668" title=""></option>
+          <option value="669" title=""></option>
+          <option value="670" title=""></option>
+          <option value="671" title=""></option>
+          <option value="672" title=""></option>
+          <option value="673" title=""></option>
+          <option value="674" title=""></option>
+          <option value="675" title=""></option>
+          <option value="676" title=""></option>
+          <option value="677" title=""></option>
+          <option value="678" title=""></option>
+          <option value="679" title=""></option>
+          <option value="680" title=""></option>
+          <option value="681" title=""></option>
+          <option value="682" title=""></option>
+          <option value="683" title=""></option>
+          <option value="684" title=""></option>
+          <option value="685" title=""></option>
+          <option value="686" title=""></option>
+          <option value="687" title=""></option>
+          <option value="688" title=""></option>
+          <option value="689" title=""></option>
+          <option value="690" title=""></option>
+          <option value="691" title=""></option>
+          <option value="692" title=""></option>
+          <option value="693" title=""></option>
+          <option value="694" title=""></option>
+          <option value="695" title=""></option>
+          <option value="696" title=""></option>
+          <option value="697" title=""></option>
+          <option value="698" title=""></option>
+          <option value="699" title=""></option>
+      </select>
+      <select name="Recomendaciones" id="recom" title="Selector de las recomendaciones generales mas comunes que puede darte un médico en consulta y que puedes consultar para evitar desplazarte para verlo en persona." onchange="selrecg()">
+          <option value="700" title="">Recomendaciones:</option>
+          <option value="701" title=""></option>
+          <option value="702" title=""></option>
+          <option value="703" title=""></option>
+          <option value="704" title=""></option>
+          <option value="705" title=""></option>
+          <option value="706" title=""></option>
+          <option value="707" title=""></option>
+          <option value="708" title=""></option>
+          <option value="709" title=""></option>
+          <option value="710" title=""></option>
+          <option value="711" title=""></option>
+          <option value="712" title=""></option>
+          <option value="713" title=""></option>
+          <option value="714" title=""></option>
+          <option value="715" title=""></option>
+          <option value="716" title=""></option>
+          <option value="717" title=""></option>
+          <option value="718" title=""></option>
+          <option value="719" title=""></option>
+          <option value="720" title=""></option>
+          <option value="721" title=""></option>
+          <option value="722" title=""></option>
+          <option value="723" title=""></option>
+          <option value="724" title=""></option>
+          <option value="725" title=""></option>
+          <option value="726" title=""></option>
+          <option value="727" title=""></option>
+          <option value="728" title=""></option>
+          <option value="729" title=""></option>
+          <option value="730" title=""></option>
+          <option value="731" title=""></option>
+          <option value="732" title=""></option>
+          <option value="733" title=""></option>
+          <option value="734" title=""></option>
+          <option value="735" title=""></option>
+          <option value="736" title=""></option>
+          <option value="737" title=""></option>
+          <option value="738" title=""></option>
+          <option value="739" title=""></option>
+          <option value="740" title=""></option>
+          <option value="741" title=""></option>
+          <option value="742" title=""></option>
+          <option value="743" title=""></option>
+          <option value="744" title=""></option>
+          <option value="745" title=""></option>
+          <option value="746" title=""></option>
+          <option value="747" title=""></option>
+          <option value="748" title=""></option>
+          <option value="749" title=""></option>
+          <option value="750" title=""></option>
+          <option value="751" title=""></option>
+          <option value="752" title=""></option>
+          <option value="752" title=""></option>
+          <option value="752" title=""></option>
+          <option value="753" title=""></option>
+          <option value="754" title=""></option>
+          <option value="755" title=""></option>
+          <option value="756" title=""></option>
+          <option value="757" title=""></option>
+          <option value="758" title=""></option>
+          <option value="759" title=""></option>
+          <option value="760" title=""></option>
+          <option value="761" title=""></option>
+          <option value="762" title=""></option>
+          <option value="763" title=""></option>
+          <option value="764" title=""></option>
+          <option value="765" title=""></option>
+          <option value="766" title=""></option>
+          <option value="767" title=""></option>
+          <option value="768" title=""></option>
+          <option value="769" title=""></option>
+          <option value="770" title=""></option>
+          <option value="771" title=""></option>
+          <option value="772" title=""></option>
+          <option value="773" title=""></option>
+          <option value="774" title=""></option>
+          <option value="775" title=""></option>
+          <option value="776" title=""></option>
+          <option value="777" title=""></option>
+          <option value="778" title=""></option>
+          <option value="779" title=""></option>
+          <option value="780" title=""></option>
+          <option value="781" title=""></option>
+          <option value="782" title=""></option>
+          <option value="783" title=""></option>
+          <option value="784" title=""></option>
+          <option value="785" title=""></option>
+          <option value="786" title=""></option>
+          <option value="787" title=""></option>
+          <option value="788" title=""></option>
+          <option value="789" title=""></option>
+          <option value="790" title=""></option>
+          <option value="791" title=""></option>
+          <option value="792" title=""></option>
+          <option value="793" title=""></option>
+          <option value="794" title=""></option>
+          <option value="795" title=""></option>
+          <option value="796" title=""></option>
+          <option value="797" title=""></option>
+          <option value="798" title=""></option>
+          <option value="799" title=""></option>
+      </select>
+      <select name="hardware y equipos m&eacute;dicos." id="hardequip" title="Lista de hardware utilizado en cl&iacute;nicas y hospitales y software que pueda llegarse a usar yq eu es de vital importancia." onchange="hem()">
+        <option value="800" title="">Equipos m&eacute;dicos:</option>
+        <option value="801" title=""></option>
+        <option value="802" title=""></option>
+        <option value="803" title=""></option>
+        <option value="804" title=""></option>
+        <option value="805" title=""></option>
+        <option value="806" title=""></option>
+        <option value="807" title=""></option>
+        <option value="808" title=""></option>
+        <option value="809" title=""></option>
+        <option value="810" title=""></option>
+        <option value="811" title=""></option>
+        <option value="812" title=""></option>
+        <option value="813" title=""></option>
+        <option value="814" title=""></option>
+        <option value="815" title=""></option>
+        <option value="816" title=""></option>
+        <option value="817" title=""></option>
+        <option value="818" title=""></option>
+        <option value="819" title=""></option>
+        <option value="820" title=""></option>
+        <option value="821" title=""></option>
+        <option value="822" title=""></option>
+        <option value="823" title=""></option>
+        <option value="824" title=""></option>
+        <option value="825" title=""></option>
+        <option value="826" title=""></option>
+        <option value="827" title=""></option>
+        <option value="828" title=""></option>
+        <option value="829" title=""></option>
+        <option value="830" title=""></option>
+        <option value="831" title=""></option>
+        <option value="832" title=""></option>
+        <option value="833" title=""></option>
+        <option value="834" title=""></option>
+        <option value="835" title=""></option>
+        <option value="836" title=""></option>
+        <option value="837" title=""></option>
+        <option value="838" title=""></option>
+        <option value="839" title=""></option>
+        <option value="840" title=""></option>
+        <option value="841" title=""></option>
+        <option value="842" title=""></option>
+        <option value="843" title=""></option>
+        <option value="844" title=""></option>
+        <option value="845" title=""></option>
+        <option value="846" title=""></option>
+        <option value="847" title=""></option>
+        <option value="848" title=""></option>
+        <option value="849" title=""></option>
+        <option value="850" title=""></option>
+        <option value="851" title=""></option>
+        <option value="852" title=""></option>
+        <option value="853" title=""></option>
+        <option value="854" title=""></option>
+        <option value="855" title=""></option>
+        <option value="856" title=""></option>
+        <option value="857" title=""></option>
+        <option value="858" title=""></option>
+        <option value="859" title=""></option>
+        <option value="860" title=""></option>
+        <option value="861" title=""></option>
+        <option value="862" title=""></option>
+        <option value="863" title=""></option>
+        <option value="864" title=""></option>
+        <option value="865" title=""></option>
+        <option value="866" title=""></option>
+        <option value="867" title=""></option>
+        <option value="868" title=""></option>
+        <option value="869" title=""></option>
+        <option value="870" title=""></option>
+        <option value="871" title=""></option>
+        <option value="872" title=""></option>
+        <option value="873" title=""></option>
+        <option value="874" title=""></option>
+        <option value="875" title=""></option>
+        <option value="876" title=""></option>
+        <option value="877" title=""></option>
+        <option value="878" title=""></option>
+        <option value="879" title=""></option>
+        <option value="880" title=""></option>
+        <option value="881" title=""></option>
+        <option value="882" title=""></option>
+        <option value="883" title=""></option>
+        <option value="884" title=""></option>
+        <option value="885" title=""></option>
+        <option value="886" title=""></option>
+        <option value="887" title=""></option>
+        <option value="888" title=""></option>
+        <option value="889" title=""></option>
+        <option value="890" title=""></option>
+        <option value="891" title=""></option>
+        <option value="892" title=""></option>
+        <option value="893" title=""></option>
+        <option value="894" title=""></option>
+        <option value="895" title=""></option>
+        <option value="896" title=""></option>
+        <option value="897" title=""></option>
+        <option value="898" title=""></option>
+        <option value="899" title=""></option>
+        
+      </select>
+      <select name="diagnos" id="diagnos" title="La siguiente en la lista con las recomendaciones mas comunes que nos puede brindar un doctor de forma offline u online; entre ellas el tener en cuenta no automedicarse, tener a la mano siempre un botiqu&iacute;n de primeros auxilios, un quit de primeros auxilios con elementos m&iacute;nimos y estudiar el librito de los primeros auxilios con el fin de estar preparad@ para cualquier eventualidad.">
+        <option value="900" title="">Diagn&oacute;sticos:</option>
+        <option value="901" title=""></option>
+        <option value="902" title=""></option>
+        <option value="903" title=""></option>
+        <option value="04" title=""></option>
+        <option value="05" title=""></option>
+        <option value="06" title=""></option>
+        <option value="07" title=""></option>
+        <option value="08" title=""></option>
+        <option value="09" title=""></option>
+        <option value="10" title=""></option>
+        <option value="11" title=""></option>
+        <option value="12" title=""></option>
+        <option value="13" title=""></option>
+        <option value="14" title=""></option>
+        <option value="15" title=""></option>
+        <option value="16" title=""></option>
+        <option value="17" title=""></option>
+        <option value="18" title=""></option>
+        <option value="19" title=""></option>
+        <option value="20" title=""></option>
+        <option value="21" title=""></option>
+        <option value="22" title=""></option>
+        <option value="23" title=""></option>
+        <option value="24" title=""></option>
+        <option value="25" title=""></option>
+        <option value="26" title=""></option>
+        <option value="27" title=""></option>
+        <option value="28" title=""></option>
+        <option value="28" title=""></option>
+        <option value="28" title=""></option>
+        <option value="29" title=""></option>
+        <option value="30" title=""></option>
+        <option value="31" title=""></option>
+        <option value="32" title=""></option>
+        <option value="33" title=""></option>
+        <option value="34" title=""></option>
+        <option value="35" title=""></option>
+        <option value="36" title=""></option>
+        <option value="37" title=""></option>
+        <option value="38" title=""></option>
+        <option value="39" title=""></option>
+        <option value="40" title=""></option>
+        <option value="41" title=""></option>
+        <option value="42" title=""></option>
+        <option value="43" title=""></option>
+        <option value="44" title=""></option>
+        <option value="45" title=""></option>
+        <option value="46" title=""></option>
+        <option value="47" title=""></option>
+        <option value="48" title=""></option>
+        <option value="49" title=""></option>
+      </select>
+      <button type="button" name="butdesarr" onclick="butdesajo()" title="Est&aacute; p&aacute;gina web ha sido desarrollada por Jos&eacute; fernando cano pel&aacute;ez de la empresa dilmed agilizando tu vida con el fin de poder crear un espacio en internet para estudiar y aprender labores en el &aacute;rea de la medicina con el fin de poder a llegar a curar y aliviar las dolencias de millones de personas en un fuuro proximo no muy lejano. Se pretende y se espera que este sitio web seha el inicio para futuros allazgos cient&iacute;ficos y pueda servir de ejemplo para futuros m&eacute;dicos y doctores que puedan llegar a seguir el ejemplo de la metodolog&iacute;a de estudio con un fin postivo y con el animo de ayudar personas.">Desarrollador:</button>
+        <button name="Glosario." type="button" onclick="butglos()">Glosario:</button>
+        <button name="Música rock y punk." type="button" title="Por favor daclick para poder ver algunas bandas de punk:" onclick="butpunk()">Punk:</button>
+  </nav>
+  <br>
+
+    
+        <aside class="asil">
+            <div class="divprin">
+                <div class="divsec">
+                    <a href="./punk.png" title="Doctor Punk." target="_blanck">
+                        <img src="./punk.png" alt="Cuando toca autogestionar recursos para curar!!!" style="width: 30%">
+                    </a>
+                </div>
+                <div class="divsec">
+                    <select onchange="selmusk()" title="Algunos generos por escucha proximamente:">
+                            <option value="1001" title="Por favor selecciona uno de los siguientes g&eacute;neros m&uacute;sicales dentro de la rama del rock en la siguiente lista:">G&eacute;neros:</option>
+                            <option value="1002" title="Rock cl&aacute;sico y subgeneros tempranos: Rock and roll (1950).">Rock and roll</option>
+                            <option value="1003" title="Rock cl&aacute;sico y subgeneros tempranos: Rockabilly">Rockabilly</option>
+                            <option value="1004" title="Rock cl&aacute;sico y subgeneros tempranos: Surf Rock">Surf Rock:</option>
+                            <option value="1005" title="Rock cl&aacute;sico y subgeneros tempranos: Garage rock.">Garage rock.</option>
+                            <option value="1006" title="Rock cl&aacute;sico y subgeneros tempranos: Psychedelic Rock">Psychedelic Rock</option>
+                            <option value="1007" title="Rock cl&aacute;sico y subgeneros tempranos: Progressive Rock (Prog rock)">Progressive Rock</option>
+                            <option value="1008" title="Rock cl&aacute;sico y subgeneros tempranos: Hard Rock">Hard Rock</option>
+                            <option value="1009" title="Metal y sus ramas: Heavy Metal:">Heavy Metal:</option>
+                            <option value="1010" title="Metal y sus ramas: Thrash Metal:">Thrash Metal:</option>
+                            <option value="1011" title="Metal y sus ramas: Death Metal:">Death Metal:</option>
+                            <option value="1012" title="Metal y sus ramas: Black Metal:">Black Metal:</option>
+                            <option value="1013" title="Metal y sus ramas: Doom Metal:">Doom Metal:</option>
+                            <option value="1014" title="Metal y sus ramas: Power Metal:">Power Metal:</option>
+                            <option value="1015" title="Metal y sus ramas: Glam Metal / Hair Metal:">Glam Metal:</option>
+                            <option value="1016" title="Metal y sus ramas: Nu Metal:">Nu Metal:</option>
+                            <option value="1017" title="Metal y sus ramas: Metalcore:">Metalcore:</option>
+                            <option value="1018" title="Metal y sus ramas: Djent:">Djent:</option>
+                            <option value="1019" title="Metal y sus ramas: Industrial Metal:">Industrial Metal:</option>
+                            <option value="1020" title="Punk y derivados: Punk:">Punk:</option>
+                            <option value="1021" title="Punk y derivados: Punk rock.">Punk rock.</option>
+                            <option value="1022" title="Punk y derivados: hardcore punk.">Hardcore punk:</option>
+                            <option value="1023" title="Punk y derivados: Post-punk:">Post punk:</option>
+                            <option value="1024" title="Punk y derivados: New wave:">New Wave:</option>
+                            <option value="1025" title="Punk y derivados: Pop Punk:">Pop Punk:</option>
+                            <option value="1026" title="Punk y derivados: Emo">Emo:</option>
+                            <option value="1027" title="Punk y derivados: Ska">Ska:</option>
+                            <option value="1028" title="Punk y derivados: Reeguee">Reeguee.</option>
+                            <option value="1029" title="Punk y derivados: Sk&aacute; punk:">Sk&aacute; punk:</option>
+                            <option value="1030" title="Punk y derivados: Street Punk / OI!:">Street Punk / OI!</option>
+                            <option value="1031" title="Punk y derivados: Anarco-Punk:"></option>
+                            <option value="1032" title="Rock alternativo: Alternative Rock:">alternative Rock:</option>
+                            <option value="1033" title="Rock alternativo: Grunge:">Grunge:</option>
+                            <option value="1034" title="Rock alternativo: Britpop:">Britpop:</option>
+                            <option value="1035" title="Rock alternativo: Indie Rock:">Indie Rock:</option>
+                            <option value="1036" title="Rock alternativo: Shoegaze:">Shoegaze:</option>
+                            <option value="1037" title="Rock alternativo: Dream Pop:">Dream Pop:</option>
+                            <option value="1038" title="Rock alternativo: Noise Rock:">Noise Rock:</option>
+                            <option value="1039" title="Rock alternativo: Math Rock:">Math Rock:</option>
+                            <option value="1040" title="Rock alternativo: Post-Rock:">Post-Rock:</option>
+                            <option value="1041" title="Rock alternativo:"></option>
+                            <option value="1042" title="Rock alternativo:"></option>
+                            <option value="1043" title="Rock alternativo:"></option>
+                            <option value="1044" title="Rock alternativo:"></option>
+                            <option value="1045" title="Rock alternativo:"></option>
+                            <option value="1046" title="Rock alternativo:"></option>
+                            <option value="1047" title="Rock alternativo:"></option>
+                            <option value="1048" title="Rock alternativo:"></option>
+                            <option value="1049" title="Rock alternativo:"></option>
+                            <option value="1050" title="Rock alternativo:"></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                
+                        </select>
+                </div>
+                <div class="divsec">
+                    
+                </div>
+                <div class="divsec">
+                    
+                </div>
+                <div class="divsec">
+                    
+                </div>
+                <div class="divsec">
+                    
+                </div>
+                <div class="divsec">
+                    
+                </div>
+            </div>
+        </aside>
+        <section>
+            <main>
+                <article>
+                    <h1>Historia cl&iacute;nica:</h1>
+                    <p>Los siguientes son los datos por llenar y consultar al pasciente, al estudiante, enfermero, t&eacute;cnico, aprendiz, tegn&oacutE;logo medico o especilista y la informaci&oacute;n referente al hospital donde se realizo la revisi&oacute;n m&eacute;dica hospitalaria, conulta m&eacutE;dica prioritaria, externa o urgencias, e incluso toma de muestras m&eacute;dicas de laboratorio con el fin de llevar el debido control de las historias cl&iacute;nicas de los pascientes, sus registros, sus familiares, las enfermedades, los procedimientos y metodos de curación con el fin de ayudar a mejorar y mejorar en cnocimiento el &aacute;rea de estudios avanzados aplicados en la ciencia de la m&eacucte;dicina.</p>
+
+                      <fieldsed>
+                        <legend>Formulario de datos:</legend>
+                        <label>N&uacute;mero de informe:</label>
+                        <input type="number" title="Por favor ingrese el n&uacute;mero de informe:" placeholder="# de informe:">
+                        <label>Fecha:</label>
+                        <input type="date" title="Por favor ingrese la fecha:" placeholder="Fecha:">
+                        <label>Hora:</label>
+                        <input type="" title="" placeholder="Hora:">
+                        <label>Nombre del hospital:</label>
+                        <input type="text" title="Nombre del hospital" placeholder="Hospital:">
+                        <label>NIT:</label>
+                        <input type="number" title="Nit o n&uacute;mero &uacute;nico de la empresa:" placeholder="NIT:">
+                        <label>C&oacute;digo</label>
+                        <input type="number:" title="C&oacute;digo:" placeholder="">
+                        <label>Tel&eacute;fono:</label>
+                        <input type="Number" title="N&uacute;mero e telefono:" placeholder="Tel&eacute;fono fijo:">
+                        <label>Departamento:</label>
+                        <select onchange="seldep()" title="Seleccione un departamento del territorio nacional de Colombia:">
+                          <option value="" title="">Guajira:</option>
+                          <option value="" title="">Atl&aacute;ntico:</option>
+                          <option value="" title="">Magdalena:</option>
+                          <option value="" title="">Cesar:</option>
+                          <option value="" title="">Sucre:</option>
+                          <option value="" title="">Bolivar:</option>
+                          <option value="" title="">Norte de santander:</option>
+                          <option value="" title="">C&oacute;rdoba:</option>
+                          <option value="" title="">Antioqu&iacute;a:</option>
+                          <option value="" title="">Santander:</option>
+                          <option value="" title="">Arauca:</option>
+                          <option value="" title="">Choc&oacute;</option>
+                          <option value="" title="">risaralda:</option>
+                          <option value="" title="">Cundinamarca:</option>
+                          <option value="" title="">Casanar&eacute;:</option>
+                          <option value="" title="">Vichada:</option>
+                          <option value="" title="">Boyac&aacute;:</option>
+                          <option value="" title="">Quindio:</option>
+                          <option value="" title="">Valle del cauca:</option>
+                          <option value="" title="">Tolima:</option>
+                          <option value="" title="">Cauca:</option>
+                          <option value="" title="">Huila:</option>
+                          <option value="" title="">Nari&ntilde;o:</option>
+                          <option value="" title="">Putumayo:</option>
+                          <option value="" title="">Caquet&aacute;:</option>
+                          <option value="" title="">Meta:</option>
+                          <option value="" title="">Guavi&aacute;re:</option>
+                          <option value="" title="">Guain&iacute;a:</option>
+                          <option value="" title="">Vaup&eacute;s:</option>
+                          <option value="" title="">Amazonas:</option>
+                          <option value="" title="Isla de">San andres:</option>
+                          <option value="" title="Isla de">Providencia:</option>
+                          <option value="" title="Isla de">Santa catalina:</option>
+                        </select>
+                        <label>Municipio / Ciudad:</label>
+                          <select title="Por favor seleccione el municipio, ciudad o localidad con su respectivo indicativo." onchange="selmun()">
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                            <option title="Opci&oacute;n del municipio, comuna, vereda, localidad  barrio o ciudad:" value=""></option>
+                          </select>
+                      </fieldset>
+                        <fieldset>
+                          <legend>Datos de usuario:</legend>
+                            <label>1° Apellido:</label>
+                            <input type="text" title="Datos del nombre de usuario:" placeholder="Primer apellido:" id="prinom">
+                            <label>2° Apellido:</label>
+                            <input type="text" title="Datos del nombre de usuario:" placeholder="Segundo apellido:" id="prinom">
+                            <label>1° Nombre:</label>
+                            <input type="text" title="Datos del nombre de usuario:" placeholder="Primer nombre:" id="prinom">
+                            <label>2° Nombre:</label>
+                            <input type="text" title="Datos del nombre de usuario:" placeholder="Primer nombre:" id="prinom">
+                            <br>
+                          <legend>Documentaci&oacute;n:</legend>
+                            <label>Registro civil:</label>
+                            <input type="checkbox" title="Selector de documentos de identidad:" id="checkid">
+                            <label>Tarjeta de ientidad:</label>
+                            <input type="checkbox" title="Selector de documentos de identidad:" id="checkid">
+                            <label>C&eacute;dula de ciudadania:</label>
+                            <input type="checkbox" title="Selector de documentos de identidad:" id="checkid">
+                            <label>C&eacute;dula de extranjeria:</label>
+                            <input type="checkbox" title="Selector de documentos de identidad:" id="checkid">
+                            <label>Pasaporte:</label>
+                            <input type="checkbox" title="Selector de documentos de identidad:" id="checkid">
+                            <label>Adulto sin identificaci&oacute;n:</label>
+                            <input type="checkbox" title="Selector de documentos de identidad:" id="checkid">
+                            <label>Menpor sin identificaci&oacute;n:</label>
+                            <input type="checkbox" title="Selector de documentos de identidad:" id="checkid">
+                            <label>Fecha de nacimiento:</label>
+                            <input type="date" title="Fecha de nacimiento del pasciente::" id="checkid" place holder="Fecha de nacimiento:">
+                            <label>N&uacute;mero de documento:</label>
+                            <input type="number" title="Selector de documentos de identidad:" id="numdoc" placeholder="N&uacute;mero de documento:">
+                            <label>Direcci&oacute;n:</label>
+                            <input type="text" title="Direcci&oacute;n de la residencia:" id="dirres" placeholder="Direcci&oacutE;n de la residencia utilziando la nomenclatura vial y urbana de la localidad, barrio, comuna, vereda, municipio, pueblo o kilometraje en cuestion.">
+                            <label>Telefono:</label>
+                            <input type="Number" title="Selector de documentos de identidad:" id="checkid" placeholder="N&uacute;mero e telefono:">
+                            <label>C&oacute;dio de identificaci&oacute;n:</label>
+                            <input type="" title="C&oacute;digo alfanum&eacute;rico de identificaci&oacute;n. Puede ser contabilizado de una forma autom&aacute;tica y puede servir para busquedas r&aacutE;pidas y avanzadas y llevar un correcto, compleo y avanzado registro." placeholder="C&oacute;digo de identificaci&oacute;n:">
+                            <label>Departamento:</label>
+                            <select onchange="seldep()" title="Seleccione un departamento del territorio nacional de Colombia:">
+                              <option value="" title="">Guajira:</option>
+                              <option value="" title="">Atl&aacute;ntico:</option>
+                              <option value="" title="">Magdalena:</option>
+                              <option value="" title="">Cesar:</option>
+                              <option value="" title="">Sucre:</option>
+                              <option value="" title="">Bolivar:</option>
+                              <option value="" title="">Norte de santander:</option>
+                              <option value="" title="">C&oacute;rdoba:</option>
+                              <option value="" title="">Antioqu&iacute;a:</option>
+                              <option value="" title="">Santander:</option>
+                              <option value="" title="">Arauca:</option>
+                              <option value="" title="">Choc&oacute;</option>
+                              <option value="" title="">risaralda:</option>
+                              <option value="" title="">Cundinamarca:</option>
+                              <option value="" title="">Casanar&eacute;:</option>
+                              <option value="" title="">Vichada:</option>
+                              <option value="" title="">Boyac&aacute;:</option>
+                              <option value="" title="">Quindio:</option>
+                              <option value="" title="">Valle del cauca:</option>
+                              <option value="" title="">Tolima:</option>
+                              <option value="" title="">Cauca:</option>
+                              <option value="" title="">Huila:</option>
+                              <option value="" title="">Nari&ntilde;o:</option>
+                              <option value="" title="">Putumayo:</option>
+                              <option value="" title="">Caquet&aacute;:</option>
+                              <option value="" title="">Meta:</option>
+                              <option value="" title="">Guavi&aacute;re:</option>
+                              <option value="" title="">Guain&iacute;a:</option>
+                              <option value="" title="">Vaup&eacute;s:</option>
+                              <option value="" title="">Amazonas:</option>
+                              <option value="" title="Isla de">San andres:</option>
+                              <option value="" title="Isla de">Providencia:</option>
+                              <option value="" title="Isla de">Santa catalina:</option>
+                            </select>
+                            <select onchange="selcoddep()" title="Seleccione un c&oacute;digo del departamento del territorio nacional de Colombia:">
+                              <option value="" title="">Guajira:</option>
+                              <option value="" title="">Atl&aacute;ntico:</option>
+                              <option value="" title="">Magdalena:</option>
+                              <option value="" title="">Cesar:</option>
+                              <option value="" title="">Sucre:</option>
+                              <option value="" title="">Bolivar:</option>
+                              <option value="" title="">Norte de santander:</option>
+                              <option value="" title="">C&oacute;rdoba:</option>
+                              <option value="" title="">Antioqu&iacute;a:</option>
+                              <option value="" title="">Santander:</option>
+                              <option value="" title="">Arauca:</option>
+                              <option value="" title="">Choc&oacute;</option>
+                              <option value="" title="">risaralda:</option>
+                              <option value="" title="">Cundinamarca:</option>
+                              <option value="" title="">Casanar&eacute;:</option>
+                              <option value="" title="">Vichada:</option>
+                              <option value="" title="">Boyac&aacute;:</option>
+                              <option value="" title="">Quindio:</option>
+                              <option value="" title="">Valle del cauca:</option>
+                              <option value="" title="">Tolima:</option>
+                              <option value="" title="">Cauca:</option>
+                              <option value="" title="">Huila:</option>
+                              <option value="" title="">Nari&ntilde;o:</option>
+                              <option value="" title="">Putumayo:</option>
+                              <option value="" title="">Caquet&aacute;:</option>
+                              <option value="" title="">Meta:</option>
+                              <option value="" title="">Guavi&aacute;re:</option>
+                              <option value="" title="">Guain&iacute;a:</option>
+                              <option value="" title="">Vaup&eacute;s:</option>
+                              <option value="" title="">Amazonas:</option>
+                              <option value="" title="Isla de">San andres:</option>
+                              <option value="" title="Isla de">Providencia:</option>
+                              <option value="" title="Isla de">Santa catalina:</option>
+                            </select>
+                            <label>Celular:</label>
+                            <input type="number" title="N&uacute;mero de celular:" placeholder="Celular:">
+                            <label>Correo electr&oacute;nico:</label>
+                            <input type="mail" title="Correo electronico, direcci&oacute;n electr&oaute;nica o correo de mensajeria web." placeholder="Email:">
+                            <label>Cobertura de salud:</label>
+                            <input type="checkbox" title="Cobertura de la salud:" placeholder="R&eacute;gimen contributivo:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Cobertura de la salud:" placeholder="R&eacute;gimen subsidiado total:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Cobertura de la salud:" placeholder="R&eacute;gimen subsidiado parcial:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Cobertura de la salud:" placeholder="Poblaci&oacute;n pobre no asegurada con sisb." title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Cobertura de la salud:" placeholder="Desplazado:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Cobertura de la salud:" placeholder="Otro:" title="Cobertura de salud (en el &aacute;rea de la salud:).">  
+                            <input type="checkbox" title="Cobertura de la salud:" placeholder="" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Cobertura de la salud:" placeholder="" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+
+                            <legend>Informaci&oacute;n de la atenci&acute;n y servicios solicitados:</legend>
+                            <label>Origen de la atenci&oacute;n:</label>
+                            <input type="checkbox" title="Origen de la atenci&oacute;n:" placeholder="Enfermedad general::" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Origen de la atenci&oacute;n:" placeholder="Enfermedad profesional:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Origen de la atenci&oacute;n:" placeholder="Accidente de trabajo:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Origen de la atenci&oacute;n:" placeholder="Accidente de transito:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Origen de la atenci&oacute;n:" placeholder="Evento catastr&oacute;fico:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Origen de la atenci&oacute;n:" placeholder="Evento posterior a la atenci&oacute;n en urgencias:" title="Cobertura de salud (en el &aacute;rea de la salud:).">  
+                            <input type="checkbox" title="Origen de la atenci&oacute;n:" placeholder="Servicios electivos:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Origen de la atenci&oacute;n:" placeholder="Consulta prioritaria:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+                            <input type="checkbox" title="Origen de la atenci&oacute;n:" placeholder="Consulta no prioritaria:" title="Cobertura de salud (en el &aacute;rea de la salud:).">
+
+                            <fieldset>
+                              <legend>Servicio de especilidad m&eacute;dica:</legend>
+                              <select title="Elige si requieres consultar o informarte sobre alguna especialidad m&eacute;dica en especial en consulta m&eacutE;dica prioritaria, consulta externa, hospitalizaci&oacute;n, etc." onchange="selcites()" id="selcites">
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web:">M&eacute;dicina general:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Psicolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Enfermer&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Psiquiatr&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Odontolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Oncolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Trabajo social:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Oftalmolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica: recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web:">Pediatr&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Cardiolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Endocrinolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Bacteriolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Nefrolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Infectolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Dermatolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Medicina comunitaria:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Gen&eacute;tica:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Ortopedia:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Nutrici&oacute;n:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Ginecolog&iacute;a y obstetricia:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Urolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Gerontolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Otorrinolaringolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Neurolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Gastroenterolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Neumolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Tanatoprax&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Medicina forense::</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Geriatr&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Reumatolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Alergolog&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Electr&oacute;nica:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Inform&aacute;tica:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Mecatr&oacute;nica:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Mecanograf&iacute;a:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Terapia ocupacional:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Desinfecci&oacute;n hospitalaria:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Inventario, almacen e insumos:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Administraci&oacute; eficiente de servicios de salud:</option>
+                                <option value="" title="Selector de consultas por especialidad m&eacute;dica recordando a todos que se abren las postulaciones para personal estudiantil, t&eacute;nico, tegn&oacute;logo o profesional emp&&iacute;rico, te&oacute;rico pr&aacute;tico autodidacta y eficiente con caracteristicas, actitudes y aptitudes para desarrollar actividades por vocaci&oacute;n en la curaci6oacute;n de pascientes sobre la faz de la tierra sin ningun tipo de discriminaci&oacute;n por estrato socioeconomico, raza, sexo, edad, pensamientos, inclincaci&oacute;n m&uacute;sical, religiosa o pol&iacute;tica o dependiencia adictiva a una de las sustancias mencionadas en la presente p&aacute;gina web::">Asesoria m&eacute;dica call center:</option>
+                              </select>
+                            </fieldset>
+                      </fieldsed>
+                </article>
+                <article>
+                    <main>
+                        
+                    </main>
+                </article>
+                <article>
+                    
+                </article>
+            </main>
+        </section>
+        <aside class="asir">
+            <h1>Dilmed agilizando tu vida</h1>
+                <h2>Estudios avanzados de medicina</h2>
+                    <ol>
+                        <li>Sistemas del cuerpo humano:</li>
+                        <li>Farmacolog&iacute;a y dependencia:</li>
+                        <li>Enfermedades:</li>
+                        <li>Medicamentos:</li>
+                        <li>Especialidades m&eacute;dicas:</li>
+                        <li>Hospitales:</li>
+                        <li>Recomendaciones:</li>
+                        <li>Equ&iacute;pos m&eacute;dicos:</li>
+                        <li>Diagn&oacute;sticos cl&iacute;nicos:</li>
+                        <li>Contacto de cl&iacute;nicas</li>
+                        <li>Contacto de laboratorio</li>
+                        <li>Contacto de hospitales</li>
+                        <li>Contacto farmacias</li>
+                        <li>Recomendaciones generales</li>
+                        <li>Equipos e insumos m&eacute;dicos</li>
+                        <li>Glosario:</li>
+                        <li>Proyecto iniciado y desarrollado por Jos&eacute; Fernando Cano pel&aacute;ez</mark></li>
+                
+                
+                    </ol>
+        </aside>
+    
+  <footer></footer>
+</body>
+</html>
