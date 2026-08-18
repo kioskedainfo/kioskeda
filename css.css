@@ -9,6 +9,14 @@ header{
     display: inline-flex;
     text-align: center;
 }
+.divcontainer{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-templates-rows: 100 px, auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Aplica 20px de espacio tanto horizontal como verticalmente */
+}
 .divprin{
     border-radius: 20px;
 }
