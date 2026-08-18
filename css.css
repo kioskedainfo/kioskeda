@@ -48,6 +48,8 @@ section{
     max: width;
     padding: 20px;
     box-sizeng: bordeer-box;
+    left: 30px;
+    right: 30px;
 }
 @media (max-width: 768px) {
     .contenedor-principal {
