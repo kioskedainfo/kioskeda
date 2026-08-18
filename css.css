@@ -42,4 +42,29 @@ header{
 }
 section{
     margin: 220px;
+    display: grid;
+    grid-template-colums: 250px, 1fr, 250px;
+    gap: 20px;
+    max: width;
+    padding: 20px;
+    box-sizeng: bordeer-box;
 }
+@media (max-width: 768px) {
+    .contenedor-principal {
+        /* Cambia a una sola columna en dispositivos móviles */
+        grid-template-columns: 1fr;
+    }
+
+    /* Opcional: Reordenar elementos en celulares si deseas que 
+       el contenido principal aparezca primero antes de los asides */
+    .seccion-central {
+        order: 1; /* El contenido central va primero */
+    }
+    .aside-izquierdo {
+        order: 2;
+    }
+    .aside-derecho {
+        order: 3;
+    }
+}
+
